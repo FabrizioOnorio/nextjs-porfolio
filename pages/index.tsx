@@ -5,6 +5,7 @@ import { Title } from "../components/Title";
 import { TeckStack } from "../components/TeckStack";
 import { Projects } from "../components/Projects";
 import { Contacts } from "../components/Contacts";
+import { Spacer } from "@nextui-org/react";
 
 const Home: NextPage = () => {
 	return (
@@ -12,7 +13,9 @@ const Home: NextPage = () => {
 			<Title />
 			<Presentation />
 			<TeckStack />
+			<Spacer />
 			<Projects />
+			<Spacer />
 			<Contacts />
 		</div>
 	);

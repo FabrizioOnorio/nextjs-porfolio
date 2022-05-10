@@ -1,11 +1,25 @@
 import React from "react";
+import {
+	Container,
+	Card,
+	Row,
+	Text,
+	Spacer,
+	Grid,
+	Collapse,
+} from "@nextui-org/react";
 
 
 export const Title: React.FC = () => {
 	return (
 		<>
-			<h1>Fabrizio Onorio</h1>
-			<h2>Full-Stack Web Developer</h2>
+			<Row justify="center" align="center">
+				<Text h1>Fabrizio Onorio</Text>
+			</Row>
+			<Row justify="center" align="center">
+				<Text h2>Full-Stack Web Developer</Text>
+			</Row>
+			
 		</>
 	);
 };
