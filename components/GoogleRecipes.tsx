@@ -44,7 +44,7 @@ export const GoogleRecipes: React.FC = () => {
 						<Collapse title="About the App">
 							<Text b size={14} css={{ m: 0 }}>
 								I made this application using React with Typescript for the
-								front-end and Express for the back-end.
+								front-end, for the back-end I used Express.
 								<Spacer y={0.5} />
 								This project was made for Hackday in Salt.
 								<Spacer y={0.5} />

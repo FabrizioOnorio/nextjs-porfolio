@@ -13,15 +13,7 @@ import {
 import { IoLogoCss3 } from "react-icons/io";
 import { DiRuby } from "react-icons/di";
 import { BsBootstrapFill, BsGithub } from "react-icons/bs";
-import {
-	Container,
-	Card,
-	Row,
-	Text,
-	Spacer,
-	Grid,
-	Collapse,
-} from "@nextui-org/react";
+import { Container, Row, Text, Spacer } from "@nextui-org/react";
 
 export const TeckStack: React.FC = () => {
 	return (
@@ -30,7 +22,7 @@ export const TeckStack: React.FC = () => {
 				<Text h2>Tech Stack</Text>
 			</Row>
 
-			<section>
+			<section className="teck-stack">
 				<FaReact />
 				<SiTypescript />
 				<SiRubyonrails />

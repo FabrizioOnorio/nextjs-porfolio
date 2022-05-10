@@ -9,15 +9,17 @@ import { Spacer } from "@nextui-org/react";
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<Title />
-			<Presentation />
+		<section>
+			<section className="main-page">
+				<Title />
+				<Presentation />
+			</section>
 			<TeckStack />
 			<Spacer />
 			<Projects />
 			<Spacer />
 			<Contacts />
-		</div>
+		</section>
 	);
 };
 

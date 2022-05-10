@@ -33,14 +33,10 @@ export const MarketPlace: React.FC = () => {
 							</Text>
 						</Row>
 						<Spacer y={0.5} />
-						<Link href="https://airbnb-sarowa158.herokuapp.com">
-							<a target="_blank">Visit the heroku page</a>
-						</Link>
-						<Spacer y={0.5} />
 						<Link href="https://github.com/Sarowa158/fabrics_marketplace">
 							<a target="_blank">Code on GitHub</a>
 						</Link>
-						<Spacer y={3.95} />
+						<Spacer y={5.7} />
 						<Collapse title="About the App">
 							<Text b size={14} css={{ m: 0 }}>
 								A Ruby on Rails Desktop-Web-App. This was our first team project

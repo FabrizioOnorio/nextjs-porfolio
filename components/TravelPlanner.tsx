@@ -46,10 +46,10 @@ export const TravelPlanner: React.FC = () => {
 								A Ruby on rails Mobile-Web-App to plan your trip based on covid
 								travel restrictions.
 								<Spacer y={0.5} />
-								To retrieve real data we used 2
+								To retrieve real data we used 2{" "}
 								<Link href="https://developers.amadeus.com/">
 									<a target="_blank">&quot;Amadeus for Developers&quot;</a>
-								</Link>
+								</Link>{" "}
 								APIs, one for checking the restrictions and one for getting the
 								available flights.
 							</Text>

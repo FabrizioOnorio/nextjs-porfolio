@@ -17,6 +17,10 @@ a {
 	color: rgb(2, 64, 68) !important;
 }
 
+.main-page {
+	height: 100%;
+}
+
 .project--card {
 	padding: 1rem;
 	background-color: rgb(241, 247, 229);
@@ -24,4 +28,27 @@ a {
 
 a {
 	color: rgb(152, 112, 123) !important;
+}
+
+.contacts {
+	font-size: 3.4em;
+}
+
+.teck-stack {
+	font-size: 3.4em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: rgb(241, 247, 229);
+	padding: 4rem;
+	border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+	.teck-stack {
+		padding: 1.5rem 0.5rem;
+	}
 }
