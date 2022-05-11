@@ -1,27 +1,19 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
+import { Text, Button, Spacer } from "@nextui-org/react";
 
 export const Presentation: React.FC = () => {
 	return (
-		<div
-			style={{
-				display: "flex",
-				justifyContent: "center",
-				gap: 20,
-			}}
-		>
-			<Image
-				src={"/avatar-image.jpg"}
-				alt={"Profile Image of Fabrizio"}
-				width={400}
-				height={400}
-			/>
-			<p>
-				Hello, I&apos;m Fabrizio!
-				<br /> I&apos;m a passionate Full-Stack JavaScript Developer 🚀
-				<br />
-				Check out my projects down below ⬇️
-			</p>
-		</div>
+		<section className="presentation-description">
+			<Spacer y={2} />
+			<Text b>
+				I love using code, for making products that people love to use.{" "}
+			</Text>
+			<Spacer y={3} />
+
+			<Link href={"#projects"}>
+				<a className={"projects-button"}>My projects</a>
+			</Link>
+		</section>
 	);
 };

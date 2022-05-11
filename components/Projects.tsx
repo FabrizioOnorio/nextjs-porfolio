@@ -32,7 +32,7 @@ export const Projects: React.FC = () => {
 			<Row justify="center" align="center">
 				<Text h2>Projects</Text>
 			</Row>
-			<Spacer />
+			<Spacer y={2} />
 			<Carousel
 				responsive={responsive}
 				infinite={true}

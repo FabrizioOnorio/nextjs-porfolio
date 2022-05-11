@@ -12,7 +12,7 @@ export const Contacts: React.FC = () => {
 			<Row justify="center" align="center">
 				<Text h2>Get In Touch</Text>
 			</Row>
-			<Spacer />
+			<Spacer y={2} />
 			<Row justify="center" align="center">
 				<Link href="https://github.com/FabrizioOnorio/">
 					<a className="contacts" target="_blank">

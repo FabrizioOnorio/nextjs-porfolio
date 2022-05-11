@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	background-color: rgb(225, 239, 198);
+	scroll-behavior: smooth;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: rgb(241, 247, 229);
+	background-color: #f4e285;
 	z-index: 1;
 }
 
@@ -36,7 +36,7 @@ a {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	background-color: rgb(241, 247, 229);
+	background-color: #f4e285;
 	min-height: 2rem;
 	position: absolute;
 	bottom: 0;
@@ -51,6 +51,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	background-color: #8cb369;
 }
 
 .teck-stack-section {
@@ -59,10 +60,12 @@ a {
 	justify-content: center;
 	flex-direction: column;
 	height: 100vh;
+	background-color: #f4a259;
 }
 
 .projects-section {
 	height: 100vh;
+	background-color: #5b8e7d;
 }
 
 .contacts-section {
@@ -70,6 +73,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	background-color: #bc4b51e7;
 }
 
 .project--card {
@@ -77,8 +81,13 @@ a {
 	background-color: rgb(241, 247, 229);
 }
 
+.title {
+	margin: 0 1rem;
+	text-align: center;
+}
+
 a {
-	color: rgb(152, 112, 123) !important;
+	color: #bc4b51e7 !important;
 }
 
 .contacts {
@@ -92,8 +101,26 @@ a {
 	justify-content: center;
 	gap: 2rem;
 	margin: 0 0;
-	background-color: rgb(241, 247, 229);
+
 	padding: 4rem 6rem;
+}
+
+.projects-button {
+	color: white !important;
+	background-color: #f4a159ce;
+	padding: 1rem;
+	border-radius: 1.5rem;
+  border: solid 1px #f97c0f;
+}
+
+.projects-button:hover {
+  background-color: #f4a159;
+  border: solid 1px #f97c0fb9;
+}
+
+.presentation-description {
+  text-align: center;
+  padding: 0 1rem;
 }
 
 @media (max-width: 768px) {

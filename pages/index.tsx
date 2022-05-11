@@ -11,17 +11,17 @@ const Home: NextPage = () => {
 	return (
 		<section>
 			<Nav />
-			<section className="main-page">
+			<section className="main-page" id={"home"}>
 				<Title />
 				<Presentation />
 			</section>
-			<section className="teck-stack-section">
+			<section className="teck-stack-section" id={"teck-stack"}>
 				<TeckStack />
 			</section>
-			<section className="projects-section">
+			<section className="projects-section" id={"projects"}>
 				<Projects />
 			</section>
-			<section className="contacts-section">
+			<section className="contacts-section" id={"contacts"}>
 				<Contacts />
 			</section>
 			<Footer />
