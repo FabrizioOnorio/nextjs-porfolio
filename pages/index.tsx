@@ -1,24 +1,30 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
 import { Presentation } from "../components/Presentation";
 import { Title } from "../components/Title";
 import { TeckStack } from "../components/TeckStack";
 import { Projects } from "../components/Projects";
 import { Contacts } from "../components/Contacts";
-import { Spacer } from "@nextui-org/react";
+import { Nav } from "../components/Nav";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
 	return (
 		<section>
+			<Nav />
 			<section className="main-page">
 				<Title />
 				<Presentation />
 			</section>
-			<TeckStack />
-			<Spacer />
-			<Projects />
-			<Spacer />
-			<Contacts />
+			<section className="teck-stack-section">
+				<TeckStack />
+			</section>
+			<section className="projects-section">
+				<Projects />
+			</section>
+			<section className="contacts-section">
+				<Contacts />
+			</section>
+			<Footer />
 		</section>
 	);
 };

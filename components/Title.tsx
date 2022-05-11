@@ -1,14 +1,5 @@
 import React from "react";
-import {
-	Container,
-	Card,
-	Row,
-	Text,
-	Spacer,
-	Grid,
-	Collapse,
-} from "@nextui-org/react";
-
+import { Row, Text } from "@nextui-org/react";
 
 export const Title: React.FC = () => {
 	return (
@@ -19,7 +10,6 @@ export const Title: React.FC = () => {
 			<Row justify="center" align="center">
 				<Text h2>Full-Stack Web Developer</Text>
 			</Row>
-			
 		</>
 	);
 };

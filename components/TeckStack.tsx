@@ -13,7 +13,7 @@ import {
 import { IoLogoCss3 } from "react-icons/io";
 import { DiRuby } from "react-icons/di";
 import { BsBootstrapFill, BsGithub } from "react-icons/bs";
-import { Container, Row, Text, Spacer } from "@nextui-org/react";
+import { Row, Text } from "@nextui-org/react";
 
 export const TeckStack: React.FC = () => {
 	return (
