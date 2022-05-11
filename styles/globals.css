@@ -23,7 +23,7 @@ a {
 	align-content: center;
 	align-items: center;
 	background-color: #2c1a12;
-	min-height: 3.5rem;
+	min-height: 3rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -37,7 +37,7 @@ a {
 	align-content: center;
 	align-items: center;
 	background-color: #f4e285;
-	min-height: 2rem;
+	min-height: 1.5rem;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -101,7 +101,6 @@ a {
 	justify-content: center;
 	gap: 2rem;
 	margin: 0 0;
-
 	padding: 4rem 6rem;
 }
 
@@ -110,17 +109,17 @@ a {
 	background-color: #f4a159ce;
 	padding: 1rem;
 	border-radius: 1.5rem;
-  border: solid 1px #f97c0f;
+	border: solid 1px #f97c0f;
 }
 
 .projects-button:hover {
-  background-color: #f4a159;
-  border: solid 1px #f97c0fb9;
+	background-color: #f4a159;
+	border: solid 1px #f97c0fb9;
 }
 
 .presentation-description {
-  text-align: center;
-  padding: 0 1rem;
+	text-align: center;
+	padding: 0 1rem;
 }
 
 @media (max-width: 768px) {
