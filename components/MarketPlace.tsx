@@ -39,14 +39,13 @@ export const MarketPlace: React.FC = () => {
 							<Spacer y={0.5} />
 							The use if for selling recycled fabrics.
 						</Text>
-						<Spacer y={1} />
-						<Collapse title="Links">
+						<Spacer y={0.8} />
+						<Collapse title="Links" divider={false}>
 							{" "}
 							<Link href="https://github.com/Sarowa158/fabrics_marketplace">
 								<a target="_blank">Code on GitHub</a>
 							</Link>
 						</Collapse>
-						<Spacer y={0.5} />
 					</section>
 				</Card>
 			</Grid>

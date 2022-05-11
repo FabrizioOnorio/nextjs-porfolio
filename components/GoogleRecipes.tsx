@@ -38,10 +38,10 @@ export const GoogleRecipes: React.FC = () => {
 							front-end, for the back-end I used Express.
 							<Spacer y={0.5} />
 							This project was made for Hackday in Salt.
-	
 						</Text>
-						<Spacer />
-						<Collapse title="Links">
+						<Spacer y={0.75} />
+
+						<Collapse title="Links" divider={false}>
 							{" "}
 							<Link href="https://hackday-recipes-app.herokuapp.com/">
 								<a target="_blank">Visit the heroku page</a>
@@ -51,7 +51,6 @@ export const GoogleRecipes: React.FC = () => {
 								<a target="_blank">Code on GitHub</a>
 							</Link>
 						</Collapse>
-						<Spacer y={0.5} />
 					</section>
 				</Card>
 			</Grid>

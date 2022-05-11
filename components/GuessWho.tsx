@@ -41,10 +41,10 @@ export const GuessWho: React.FC = () => {
 							game. The app was made using React with Typescript and Redux for
 							the front-end, for the back-end we used Express together with a
 							socket.io.
-							<Spacer y={0.3} />
+		
 						</Text>
 
-						<Collapse title="Links">
+						<Collapse title="Links" divider={false}>
 							{" "}
 							<Link href="https://guess-who-salt-game.herokuapp.com/">
 								<a target="_blank">Visit the heroku page</a>
@@ -58,7 +58,7 @@ export const GuessWho: React.FC = () => {
 								<a target="_blank">Code on GitHub for the socket server</a>
 							</Link>
 						</Collapse>
-						<Spacer y={0.5} />
+
 					</section>
 				</Card>
 			</Grid>

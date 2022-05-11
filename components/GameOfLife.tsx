@@ -33,14 +33,13 @@ export const GameOfLife: React.FC = () => {
 						</Row>
 						<Spacer y={1} />
 						<Text b size={14} css={{ m: 0 }}>
-
 							This is the implementation of the famous Conway&apos;s game of
 							life.
 							<Spacer y={0.5} />I made this Game both on React and on Rails.
 							<Spacer y={0.5} />
 						</Text>
-						<Spacer y={0.5} />
-						<Collapse title="Links">
+						<Spacer y={0.3} />
+						<Collapse title="Links" divider={false}>
 							<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 								<a target="_blank">Visit the Vercel page for the React App</a>
 							</Link>
@@ -57,7 +56,6 @@ export const GameOfLife: React.FC = () => {
 								<a target="_blank">Code on GitHub (Rails App)</a>
 							</Link>
 						</Collapse>
-						<Spacer y={0.5} />
 					</section>
 				</Card>
 			</Grid>

@@ -31,7 +31,7 @@ export const TravelPlanner: React.FC = () => {
 								Travel Planner
 							</Text>
 						</Row>
-						<Spacer y={0.5} />
+						<Spacer y={1} />
 
 						<Text b size={14} css={{ m: 0 }}>
 							A Ruby on rails Mobile-Web-App to plan your trip based on covid
@@ -40,10 +40,11 @@ export const TravelPlanner: React.FC = () => {
 							To retrieve real data we used 2{" "}
 							<Link href="https://developers.amadeus.com/">
 								<a target="_blank">&quot;Amadeus for Developers&quot;</a>
-							</Link>.
+							</Link>
+							.
 						</Text>
-						<Spacer y={0.3} />
-						<Collapse title="Links">
+						<Spacer y={0.8} />
+						<Collapse title="Links" divider={false}>
 							<Link href="http://www.traveld.eu/">
 								<a target="_blank">Visit traveld.eu</a>
 							</Link>
@@ -52,7 +53,6 @@ export const TravelPlanner: React.FC = () => {
 								<a target="_blank">Code on GitHub</a>
 							</Link>
 						</Collapse>
-						<Spacer y={0.5} />
 					</section>
 				</Card>
 			</Grid>
