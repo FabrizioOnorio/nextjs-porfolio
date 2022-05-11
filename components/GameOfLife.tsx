@@ -31,36 +31,31 @@ export const GameOfLife: React.FC = () => {
 								Conway&apos;s Game of Life
 							</Text>
 						</Row>
+						<Spacer y={1} />
+						<Text b size={14} css={{ m: 0 }}>
+
+							This is the implementation of the famous Conway&apos;s game of
+							life.
+							<Spacer y={0.5} />I made this Game both on React and on Rails.
+							<Spacer y={0.5} />
+						</Text>
 						<Spacer y={0.5} />
-						<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
-							<a target="_blank">Visit the Vercel page for the React App</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://game-of-life-fab.herokuapp.com/">
-							<a target="_blank">Visit the Heroku page for the Rails App</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
-							<a target="_blank">Code on GitHub (React App)</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/game-of-life">
-							<a target="_blank">Code on GitHub (Rails App)</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Collapse title="About the App">
-							<Text b size={14} css={{ m: 0 }}>
-								This application is the implementation of the famous{" "}
-								<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
-									<a target="_blank">Guess Who</a>
-								</Link>{" "}
-								game.
-								<Spacer y={0.5} />
-								This is the implementation of the famous Conway&apos;s game of
-								life.
-								<Spacer y={0.5} />I made this Game both on React and on Rails
-								<Spacer y={0.5} />
-							</Text>
+						<Collapse title="Links">
+							<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
+								<a target="_blank">Visit the Vercel page for the React App</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://game-of-life-fab.herokuapp.com/">
+								<a target="_blank">Visit the Heroku page for the Rails App</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
+								<a target="_blank">Code on GitHub (React App)</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/game-of-life">
+								<a target="_blank">Code on GitHub (Rails App)</a>
+							</Link>
 						</Collapse>
 						<Spacer y={0.5} />
 					</section>

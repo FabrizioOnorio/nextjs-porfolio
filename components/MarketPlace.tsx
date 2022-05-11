@@ -31,18 +31,20 @@ export const MarketPlace: React.FC = () => {
 								Market Place for Fabrics
 							</Text>
 						</Row>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/Sarowa158/fabrics_marketplace">
-							<a target="_blank">Code on GitHub</a>
-						</Link>
-						<Spacer y={5.7} />
-						<Collapse title="About the App">
-							<Text b size={14} css={{ m: 0 }}>
-								A Ruby on Rails Desktop-Web-App. This was our first team project
-								in Le Wagon Coding Bootcamp.
-								<Spacer y={0.5} />
-								The meaning is to sell fabrics that otherwise would go wasted.
-							</Text>
+						<Spacer y={1} />
+
+						<Text b size={14} css={{ m: 0 }}>
+							A Ruby on Rails Desktop-Web-App. This was our first team project
+							in Le Wagon Coding Bootcamp.
+							<Spacer y={0.5} />
+							The use if for selling recycled fabrics.
+						</Text>
+						<Spacer y={1} />
+						<Collapse title="Links">
+							{" "}
+							<Link href="https://github.com/Sarowa158/fabrics_marketplace">
+								<a target="_blank">Code on GitHub</a>
+							</Link>
 						</Collapse>
 						<Spacer y={0.5} />
 					</section>

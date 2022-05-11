@@ -31,23 +31,25 @@ export const GoogleRecipes: React.FC = () => {
 								Google Recipes
 							</Text>
 						</Row>
-						<Spacer y={0.5} />
-						<Link href="https://hackday-recipes-app.herokuapp.com/">
-							<a target="_blank">Visit the heroku page</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/recipesApp">
-							<a target="_blank">Code on GitHub</a>
-						</Link>
-						<Spacer y={3.95} />
-						<Collapse title="About the App">
-							<Text b size={14} css={{ m: 0 }}>
-								I made this application using React with Typescript for the
-								front-end, for the back-end I used Express.
-								<Spacer y={0.5} />
-								This project was made for Hackday in Salt.
-								<Spacer y={0.5} />
-							</Text>
+						<Spacer y={1} />
+
+						<Text b size={14} css={{ m: 0 }}>
+							I made this application using React with Typescript for the
+							front-end, for the back-end I used Express.
+							<Spacer y={0.5} />
+							This project was made for Hackday in Salt.
+	
+						</Text>
+						<Spacer />
+						<Collapse title="Links">
+							{" "}
+							<Link href="https://hackday-recipes-app.herokuapp.com/">
+								<a target="_blank">Visit the heroku page</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/recipesApp">
+								<a target="_blank">Code on GitHub</a>
+							</Link>
 						</Collapse>
 						<Spacer y={0.5} />
 					</section>

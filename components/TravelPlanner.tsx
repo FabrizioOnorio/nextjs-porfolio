@@ -32,26 +32,25 @@ export const TravelPlanner: React.FC = () => {
 							</Text>
 						</Row>
 						<Spacer y={0.5} />
-						<Link href="http://www.traveld.eu/">
-							<a target="_blank">Visit traveld.eu</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/travel_planner2">
-							<a target="_blank">Code on GitHub</a>
-						</Link>
-						<Spacer y={3.95} />
-						<Collapse title="About the App">
-							<Text b size={14} css={{ m: 0 }}>
-								A Ruby on rails Mobile-Web-App to plan your trip based on covid
-								travel restrictions.
-								<Spacer y={0.5} />
-								To retrieve real data we used 2{" "}
-								<Link href="https://developers.amadeus.com/">
-									<a target="_blank">&quot;Amadeus for Developers&quot;</a>
-								</Link>{" "}
-								APIs, one for checking the restrictions and one for getting the
-								available flights.
-							</Text>
+
+						<Text b size={14} css={{ m: 0 }}>
+							A Ruby on rails Mobile-Web-App to plan your trip based on covid
+							travel restrictions.
+							<Spacer y={0.5} />
+							To retrieve real data we used 2{" "}
+							<Link href="https://developers.amadeus.com/">
+								<a target="_blank">&quot;Amadeus for Developers&quot;</a>
+							</Link>.
+						</Text>
+						<Spacer y={0.3} />
+						<Collapse title="Links">
+							<Link href="http://www.traveld.eu/">
+								<a target="_blank">Visit traveld.eu</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/travel_planner2">
+								<a target="_blank">Code on GitHub</a>
+							</Link>
 						</Collapse>
 						<Spacer y={0.5} />
 					</section>

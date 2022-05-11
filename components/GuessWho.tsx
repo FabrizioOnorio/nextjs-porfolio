@@ -31,33 +31,32 @@ export const GuessWho: React.FC = () => {
 								Guess Who
 							</Text>
 						</Row>
-						<Spacer y={0.5} />
-						<Link href="https://guess-who-salt-game.herokuapp.com/">
-							<a target="_blank">Visit the heroku page</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/guess-who">
-							<a target="_blank">Code on GitHub for the main app</a>
-						</Link>
-						<Spacer y={0.5} />
-						<Link href="https://github.com/FabrizioOnorio/guess-who-socket">
-							<a target="_blank">Code on GitHub for the socket server</a>
-						</Link>
-						<Spacer y={2.3} />
-						<Collapse title="About the App">
-							<Text b size={14} css={{ m: 0 }}>
-								This application is the implementation of the famous{" "}
-								<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
-									<a target="_blank">Guess Who</a>
-								</Link>{" "}
-								game.
-								<Spacer y={0.5} />
-								This is app is been made using React with Typescript and Redux
-								for the front-end, for the back-end we used Express together
-								with a socket.io server for keeping the connection open between
-								different clients
-								<Spacer y={0.5} />
-							</Text>
+						<Spacer y={1} />
+
+						<Text b size={14} css={{ m: 0 }}>
+							This application is the implementation of the famous{" "}
+							<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
+								<a target="_blank">Guess Who</a>
+							</Link>{" "}
+							game. The app was made using React with Typescript and Redux for
+							the front-end, for the back-end we used Express together with a
+							socket.io.
+							<Spacer y={0.3} />
+						</Text>
+
+						<Collapse title="Links">
+							{" "}
+							<Link href="https://guess-who-salt-game.herokuapp.com/">
+								<a target="_blank">Visit the heroku page</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/guess-who">
+								<a target="_blank">Code on GitHub for the main app</a>
+							</Link>
+							<Spacer y={0.5} />
+							<Link href="https://github.com/FabrizioOnorio/guess-who-socket">
+								<a target="_blank">Code on GitHub for the socket server</a>
+							</Link>
 						</Collapse>
 						<Spacer y={0.5} />
 					</section>
