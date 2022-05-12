@@ -33,17 +33,23 @@ const Home: NextPage = () => {
 			</Head>
 			<Nav />
 			<section className="main-page" id={"home"}>
-				<Title />
-				<Presentation />
+				<section className="main-page--text">
+					<Title />
+					<Presentation />
+				</section>
 			</section>
 			<section className="teck-stack-section" id={"teck-stack"}>
-				<TeckStack />
+				<section className="teck-stack-section--text">
+					<TeckStack />
+				</section>
 			</section>
 			<section className="projects-section" id={"projects"}>
 				<Projects />
 			</section>
 			<section className="contacts-section" id={"contacts"}>
-				<Contacts />
+				<section className="contacts-section--text">
+					<Contacts />
+				</section>
 			</section>
 			<Footer />
 		</section>
