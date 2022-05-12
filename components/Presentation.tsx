@@ -14,6 +14,7 @@ export const Presentation: React.FC = () => {
 			<Link href={"#projects"}>
 				<a className={"projects-button"}>My projects</a>
 			</Link>
+			<Spacer />
 		</section>
 	);
 };
