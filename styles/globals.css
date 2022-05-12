@@ -1,3 +1,4 @@
+
 html,
 body {
 	padding: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 a {
-	color: inherit;
+	color: #a9927d !important;
 	text-decoration: none;
 }
 
@@ -55,6 +56,21 @@ a {
 	border-radius: 3rem;
 }
 
+.title {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.teck-stack {
+	font-size: 3.4em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin: 0 0;
+	padding: 4rem 6rem;
+}
+
 .teck-stack-section {
 	display: flex;
 	align-items: center;
@@ -73,6 +89,11 @@ a {
 	height: 100vh;
 }
 
+.project--card {
+  padding: 0.3rem;
+  background-color: #22333b;
+}
+
 .contacts-section {
 	display: flex;
 	align-items: center;
@@ -86,32 +107,8 @@ a {
 	border-radius: 3rem;
 }
 
-.project--card {
-	padding: 0.3rem;
-	background-color: #22333b;
-}
-
-.title {
-	margin: 0 1rem;
-	text-align: center;
-}
-
-a {
-	color: #a9927d !important;
-}
-
 .contacts {
 	font-size: 3.4em;
-}
-
-.teck-stack {
-	font-size: 3.4em;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 2rem;
-	margin: 0 0;
-	padding: 4rem 6rem;
 }
 
 .projects-button {
