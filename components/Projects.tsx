@@ -35,7 +35,6 @@ export const Projects: React.FC = () => {
 			<Spacer y={2} />
 			<Carousel
 				responsive={responsive}
-				swipeable={false}
 				infinite={true}
 				autoPlay={false}
 				removeArrowOnDeviceType={["mobile"]}
