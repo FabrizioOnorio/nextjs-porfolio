@@ -10,7 +10,7 @@ export const Title: React.FC = () => {
 				<h1 className="fadeIn">Fabrizio Onorio</h1>
 			</Row>
 			<Row justify="center" align="center">
-				<Text h2>Full-Stack Javascript Web Developer</Text>
+				<Text h3>Full-Stack Javascript Web Developer</Text>
 			</Row>
 		</section>
 	);

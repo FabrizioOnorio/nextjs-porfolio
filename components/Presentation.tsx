@@ -5,11 +5,11 @@ import { Text, Button, Spacer } from "@nextui-org/react";
 export const Presentation: React.FC = () => {
 	return (
 		<section className="presentation-description">
-			<Spacer y={2} />
+			<Spacer y={1.5} />
 			<Text b>
 				I love using code, for making products that people love to use.{" "}
 			</Text>
-			<Spacer y={3} />
+			<Spacer y={2} />
 
 			<Link href={"#projects"}>
 				<a className={"projects-button"}>My projects</a>
