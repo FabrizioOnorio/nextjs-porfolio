@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'JetBrains Mono', monospace;
+	font-family: "JetBrains Mono", monospace;
 	scroll-behavior: smooth;
 	background-color: #f1dcc6;
 }
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 * {
@@ -34,6 +34,7 @@ a:hover {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	padding: 0 1rem;
 }
 
 .footer {
@@ -88,6 +89,7 @@ a:hover {
 }
 
 .projects-section {
+	padding-top: 3rem;
 	height: 100vh;
 }
 
