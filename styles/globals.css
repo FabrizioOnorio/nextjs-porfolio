@@ -34,7 +34,7 @@ a:hover {
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	padding: 0 1rem;
+	padding: 0 0.5rem;
 }
 
 .footer {
