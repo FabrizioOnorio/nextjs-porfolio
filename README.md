@@ -2,3 +2,5 @@
 
 This is my new portfolio webpage, made on Next.js
 visit the page on http://www.fabrizio.digital/
+
+Fell free to contact me in the contact section 👋
