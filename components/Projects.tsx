@@ -28,24 +28,26 @@ export const Projects: React.FC = () => {
 		},
 	};
 	return (
-		<Container>
-			<Row justify="center" align="center">
-				<Text h2>Projects</Text>
-			</Row>
-			<Spacer y={2} />
-			<Carousel
-				responsive={responsive}
-				infinite={true}
-				autoPlay={false}
-				removeArrowOnDeviceType={["mobile"]}
-				autoPlaySpeed={100000}
-			>
-				<GuessWho />
-				<GoogleRecipes />
-				<GameOfLife />
-				<TravelPlanner />
-				<MarketPlace />
-			</Carousel>
-		</Container>
+		<section className="projects-section" id={"projects"}>
+			<Container>
+				<Row justify="center" align="center">
+					<Text h2>Projects</Text>
+				</Row>
+				<Spacer y={2} />
+				<Carousel
+					responsive={responsive}
+					infinite={true}
+					autoPlay={false}
+					removeArrowOnDeviceType={["mobile"]}
+					autoPlaySpeed={100000}
+				>
+					<GuessWho />
+					<GoogleRecipes />
+					<GameOfLife />
+					<TravelPlanner />
+					<MarketPlace />
+				</Carousel>
+			</Container>
+		</section>
 	);
 };

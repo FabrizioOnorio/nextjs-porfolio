@@ -10,20 +10,14 @@ import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
 	return (
-		<section>
+		<>
 			<Nav />
 			<Presentation />
 			<TeckStack />
-			<section className="projects-section" id={"projects"}>
-				<Projects />
-			</section>
-			<section className="contacts-section" id={"contacts"}>
-				<section className="contacts-section--text">
-					<Contacts />
-				</section>
-			</section>
+			<Projects />
+			<Contacts />
 			<Footer />
-		</section>
+		</>
 	);
 };
 
