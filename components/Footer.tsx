@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Text, Spacer } from "@nextui-org/react";
+import { Row } from "@nextui-org/react";
 
 export const Footer: React.FC = () => {
 	return (
