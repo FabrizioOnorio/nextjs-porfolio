@@ -12,15 +12,8 @@ const Home: NextPage = () => {
 	return (
 		<section>
 			<Nav />
-			<section className="main-page" id={"home"}>
-				<section className="main-page--text">
-					<Title />
-					<Presentation />
-				</section>
-			</section>
-
-					<TeckStack />
-
+			<Presentation />
+			<TeckStack />
 			<section className="projects-section" id={"projects"}>
 				<Projects />
 			</section>
