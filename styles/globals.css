@@ -6,17 +6,18 @@ body {
 	margin: 0;
 	font-family: "JetBrains Mono", monospace;
 	scroll-behavior: smooth;
-	background-color: #191504;
-	color: #fcf4f4;
+	background-color: #272534;
+
+	color: #fcfbfd !important;
 }
 
 a {
-	color: #fcf4f4;
+	color: #fcfbfd;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #bda035;
+	color: #f2c600;
 }
 
 * {
@@ -28,22 +29,23 @@ a:hover {
 	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
-	background-color: #191504;
-	color: #fcf4f4;
+	background-color: #094b44;
+	color: #f2c600;
 	min-height: 3rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 	padding: 0 0.5rem;
+	/* border-bottom: 1px solid #17acca; */
 }
 
 .navbar a {
-	color: #fcf4f4;
+	color: #fcfbfd;
 }
 
 .navbar a:hover {
-	color: #bda035;
+	color: #f2c600;
 }
 
 .footer {
@@ -51,10 +53,11 @@ a:hover {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	min-height: 1.5rem;
+	min-height: 1rem;
 	width: 100%;
-	background-color: #191504;
-	color: #fcf4f4;
+	background-color: #094b44;
+	color: #f2c600;
+	bottom: 0;
 }
 
 .main-page {
@@ -73,6 +76,10 @@ a:hover {
 .title {
 	margin: 0 1rem;
 	text-align: center;
+}
+
+.title h3 {
+  color: #f2c600;
 }
 
 .teck-stack {
@@ -99,7 +106,8 @@ a:hover {
 }
 
 .projects-section {
-	padding-top: 3rem;
+	text-align: center;
+	padding-top: 5rem;
 	min-height: 100vh;
 }
 
@@ -120,22 +128,24 @@ a:hover {
 }
 
 .projects-button {
-	color: #191504;
-	background-color: #bda035;
 	padding: 1rem;
 	border-radius: 0.7rem;
+	background-color: #191504;
+	border: solid 1px #fcfbfd;
+	color: #fcfbfd;
 }
 
 .projects-button:hover {
-	background-color: #bd9f35cf;
-	border: solid 1px #fcf4f4;
 	color: #191504;
+	background-color: #fcfbfd;
+	padding: 1rem;
+	border-radius: 0.7rem;
 }
 
 .presentation-description {
 	text-align: center;
 	padding: 0 1rem;
-	color: #fcf4f4;
+	color: #fcfbfd;
 }
 
 @media (max-width: 768px) {
@@ -146,7 +156,7 @@ a:hover {
 
 .project-card {
 	text-align: center;
-	border: 1px solid #fcf4f4;
+	border: 1px solid #fcfbfd;
 	max-width: 16rem;
 	padding: 1rem;
 	border-radius: 0.7rem;
@@ -154,10 +164,11 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	background-color: #105a52a4;
 }
 
 .project-card:hover {
-	border: 2px solid #bda035;
+	border: 3px solid #f2c600;
 }
 
 .project-card--links {
@@ -177,5 +188,12 @@ a:hover {
 }
 
 .teck-stack--element:hover {
-	color: #bda035;
+	color: #f2c600;
+}
+
+.readMore {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  gap: 0.5rem
 }

@@ -8,7 +8,7 @@ export const Title: React.FC = () => {
 				<h1 className="fadeIn">Fabrizio Onorio</h1>
 			</Row>
 			<Row justify="center" align="center">
-				<Text h3>Full-Stack Javascript Web Developer</Text>
+				<h3>Full-Stack Javascript Web Developer</h3>
 			</Row>
 		</section>
 	);

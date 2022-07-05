@@ -20,7 +20,7 @@ export const TeckStack: React.FC = () => {
 		<section className="teck-stack-section" id={"teck-stack"}>
 			<section className="teck-stack-section--text">
 				<Row justify="center" align="center">
-					<Text h2>Tech Stack</Text>
+					<h2>Tech Stack</h2>
 				</Row>
 				<Spacer y={2} />
 

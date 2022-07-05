@@ -9,7 +9,8 @@ import { Container, Spacer, Text, Row } from "@nextui-org/react";
 export const Projects: React.FC = () => {
 
 	return (
-		<section className="projects-section" id={"projects"}>
+    <section className="projects-section" id={"projects"}>
+      <h2>Projects</h2>
 			<section className="projects-section--projects">
 				<GuessWho />
 				<GoogleRecipes />

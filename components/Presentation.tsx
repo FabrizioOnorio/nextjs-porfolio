@@ -11,7 +11,7 @@ export const Presentation: React.FC = () => {
 				<section className="presentation-description">
 					<Spacer y={1} />
 					<h4>
-						I love using code, for making products that people love to use.{" "}
+						I love using code, for making products that people love using.{" "}
 					</h4>
 					<Spacer y={3} />
 
