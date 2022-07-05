@@ -11,7 +11,6 @@ import { Footer } from "../components/Footer";
 const Home: NextPage = () => {
 	return (
 		<section>
-
 			<Nav />
 			<section className="main-page" id={"home"}>
 				<section className="main-page--text">
@@ -19,11 +18,9 @@ const Home: NextPage = () => {
 					<Presentation />
 				</section>
 			</section>
-			<section className="teck-stack-section" id={"teck-stack"}>
-				<section className="teck-stack-section--text">
+
 					<TeckStack />
-				</section>
-			</section>
+
 			<section className="projects-section" id={"projects"}>
 				<Projects />
 			</section>

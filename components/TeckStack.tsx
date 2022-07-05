@@ -17,29 +17,31 @@ import { Row, Text, Spacer } from "@nextui-org/react";
 
 export const TeckStack: React.FC = () => {
 	return (
-		<>
-			<Row justify="center" align="center">
-				<Text h2>Tech Stack</Text>
-			</Row>
-			<Spacer y={2} />
+		<section className="teck-stack-section" id={"teck-stack"}>
+			<section className="teck-stack-section--text">
+				<Row justify="center" align="center">
+					<Text h2>Tech Stack</Text>
+				</Row>
+				<Spacer y={2} />
 
-			<section className="teck-stack">
-				<FaReact />
-				<SiTypescript />
-				<SiRubyonrails />
-				<SiJavascript />
-				<IoLogoCss3 />
-				<FaHtml5 />
-				<BsBootstrapFill />
-				<BsGithub />
-				<FaGitSquare />
-				<SiPostgresql />
-				<SiHeroku />
-				<SiMongodb />
-				<SiExpress />
-				<SiRedux />
-				<DiRuby />
+				<section className="teck-stack">
+					<FaReact />
+					<SiTypescript />
+					<SiRubyonrails />
+					<SiJavascript />
+					<IoLogoCss3 />
+					<FaHtml5 />
+					<BsBootstrapFill />
+					<BsGithub />
+					<FaGitSquare />
+					<SiPostgresql />
+					<SiHeroku />
+					<SiMongodb />
+					<SiExpress />
+					<SiRedux />
+					<DiRuby />
+				</section>
 			</section>
-		</>
+		</section>
 	);
 };
