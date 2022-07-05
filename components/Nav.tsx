@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Text, Spacer } from "@nextui-org/react";
+import { Row, Spacer } from "@nextui-org/react";
 import Link from "next/link";
 
 export const Nav: React.FC = () => {
