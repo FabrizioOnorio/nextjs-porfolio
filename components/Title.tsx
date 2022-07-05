@@ -1,8 +1,6 @@
 import React from "react";
 import { Row, Text } from "@nextui-org/react";
 
-
-
 export const Title: React.FC = () => {
 	return (
 		<section className="title">
