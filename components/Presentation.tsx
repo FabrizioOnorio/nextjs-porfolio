@@ -9,11 +9,11 @@ export const Presentation: React.FC = () => {
 			<section className="main-page--text">
 				<Title />
 				<section className="presentation-description">
-					<Spacer y={1.5} />
-					<Text b>
+					<Spacer y={1} />
+					<h4>
 						I love using code, for making products that people love to use.{" "}
-					</Text>
-					<Spacer y={2} />
+					</h4>
+					<Spacer y={3} />
 
 					<Link href={"#projects"}>
 						<a className={"projects-button"}>My projects</a>

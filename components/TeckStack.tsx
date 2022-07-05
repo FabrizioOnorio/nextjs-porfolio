@@ -25,21 +25,21 @@ export const TeckStack: React.FC = () => {
 				<Spacer y={2} />
 
 				<section className="teck-stack">
-					<FaReact />
-					<SiTypescript />
-					<SiRubyonrails />
-					<SiJavascript />
-					<IoLogoCss3 />
-					<FaHtml5 />
-					<BsBootstrapFill />
-					<BsGithub />
-					<FaGitSquare />
-					<SiPostgresql />
-					<SiHeroku />
-					<SiMongodb />
-					<SiExpress />
-					<SiRedux />
-					<DiRuby />
+					<FaReact className="teck-stack--element" />
+					<SiTypescript className="teck-stack--element" />
+					<SiRubyonrails className="teck-stack--element" />
+					<SiJavascript className="teck-stack--element" />
+					<IoLogoCss3 className="teck-stack--element" />
+					<FaHtml5 className="teck-stack--element" />
+					<BsBootstrapFill className="teck-stack--element" />
+					<BsGithub className="teck-stack--element" />
+					<FaGitSquare className="teck-stack--element" />
+					<SiPostgresql className="teck-stack--element" />
+					<SiHeroku className="teck-stack--element" />
+					<SiMongodb className="teck-stack--element" />
+					<SiExpress className="teck-stack--element" />
+					<SiRedux className="teck-stack--element" />
+					<DiRuby className="teck-stack--element" />
 				</section>
 			</section>
 		</section>

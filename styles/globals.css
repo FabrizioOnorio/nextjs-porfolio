@@ -6,21 +6,21 @@ body {
 	margin: 0;
 	font-family: "JetBrains Mono", monospace;
 	scroll-behavior: smooth;
-	background-color: #f1dcc6;
+	background-color: #191504;
+	color: #fcf4f4;
 }
 
 a {
-	color: #414539;
+	color: #fcf4f4;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #b2592b !important;
+	color: #bda035;
 }
 
 * {
 	box-sizing: border-box;
-	color: #21241bea !important;
 }
 
 .navbar {
@@ -28,13 +28,22 @@ a:hover {
 	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
-	background-color: #e0c5a7ea;
+	background-color: #191504;
+	color: #fcf4f4;
 	min-height: 3rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 	padding: 0 0.5rem;
+}
+
+.navbar a {
+	color: #fcf4f4;
+}
+
+.navbar a:hover {
+	color: #bda035;
 }
 
 .footer {
@@ -44,7 +53,8 @@ a:hover {
 	align-items: center;
 	min-height: 1.5rem;
 	width: 100%;
-	background-color: #e0c5a7ea;
+	background-color: #191504;
+	color: #fcf4f4;
 }
 
 .main-page {
@@ -110,20 +120,22 @@ a:hover {
 }
 
 .projects-button {
-	color: #b2592b !important;
-	background-color: #e0c5a7ea;
+	color: #191504;
+	background-color: #bda035;
 	padding: 1rem;
 	border-radius: 0.7rem;
 }
 
 .projects-button:hover {
-	background-color: #e0c5a7;
-	border: solid 1px #21241bdc;
+	background-color: #bd9f35cf;
+	border: solid 1px #fcf4f4;
+	color: #191504;
 }
 
 .presentation-description {
 	text-align: center;
 	padding: 0 1rem;
+	color: #fcf4f4;
 }
 
 @media (max-width: 768px) {
@@ -134,7 +146,7 @@ a:hover {
 
 .project-card {
 	text-align: center;
-	border: 1px solid #414539;
+	border: 1px solid #fcf4f4;
 	max-width: 16rem;
 	padding: 1rem;
 	border-radius: 0.7rem;
@@ -145,7 +157,7 @@ a:hover {
 }
 
 .project-card:hover {
-	border: 2px solid #b2592b;
+	border: 2px solid #bda035;
 }
 
 .project-card--links {
@@ -162,4 +174,8 @@ a:hover {
 	gap: 3rem;
 	max-width: 60rem;
 	flex-wrap: wrap;
+}
+
+.teck-stack--element:hover {
+	color: #bda035;
 }
