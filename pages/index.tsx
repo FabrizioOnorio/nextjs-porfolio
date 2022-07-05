@@ -1,7 +1,5 @@
-/* eslint-disable @next/next/no-document-import-in-page */
 import type { NextPage } from "next";
 import { Presentation } from "../components/Presentation";
-import { Title } from "../components/Title";
 import { TeckStack } from "../components/TeckStack";
 import { Projects } from "../components/Projects";
 import { Contacts } from "../components/Contacts";
