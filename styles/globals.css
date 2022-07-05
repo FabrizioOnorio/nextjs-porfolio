@@ -10,12 +10,12 @@ body {
 }
 
 a {
-	color: #414539 !important;
+	color: #414539;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: #b2592b !important;
 }
 
 * {
@@ -142,6 +142,10 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.project-card:hover {
+	border: 2px solid #b2592b;
 }
 
 .project-card--links {
