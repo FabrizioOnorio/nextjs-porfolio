@@ -79,7 +79,7 @@ a:hover {
 }
 
 .title h3 {
-  color: #f2c600;
+	color: #f2c600;
 }
 
 .teck-stack {
@@ -192,12 +192,44 @@ a:hover {
 }
 
 .readMore {
-  display: flex;
-  margin-bottom: 1rem;
-  align-items: center;
-  gap: 0.5rem
+	display: flex;
+	margin-bottom: 1rem;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 .project-page-section {
-  text-align: center;
+  margin-top: 1rem;
+	text-align: center;
+}
+
+.project-page-description {
+	padding: 0.3rem 1.3rem;
+	margin: 0 auto;
+	max-width: 60rem;
+
+}
+
+.project-page-img {
+  border-radius: 0.7rem;
+}
+
+.project-page-text {
+  background-color: #094b44;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  margin-top: 1rem;
+}
+
+.project-page-section h1 {
+	color: #f2c600
+}
+
+.project-page-text p {
+  font-size: 1.1rem;
+}
+
+.projects-page-links {
+  display: flex;
+  flex-direction: column;
 }
