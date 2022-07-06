@@ -8,35 +8,29 @@ const GoogleRecipesPage: NextPage = () => {
 		<>
 			<Background />
 			<section className="project-page-section">
-				<h1>Guess Who Game</h1>
+				<h1>Google Recipes</h1>
 				<section className="project-page-description">
 					<Image
 						objectFit="cover"
 						width={350}
 						height={350}
-						src={"/guess-who.png"}
+						src={"/recipes-project.png"}
 						alt={"prototype screenshots of the recipes project"}
 						className="project-page-img"
 					/>
 					<section className="project-page-text">
 						<p>
-							This application is the implementation of the famous{" "}
-							<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
-								<a target="_blank">Guess Who</a>
-							</Link>{" "}
-							game.<br></br> The app was made using React with Typescript and
-							Redux for the front-end, for the back-end we used Express together
-							with a socket.io.
+							I made this application using React with Typescript for the
+							front-end, for the back-end I used Express. This project was made
+							for Hackday in Salt.
 						</p>
 						<section className="projects-page-links">
-							<Link href="https://guess-who-salt-game.herokuapp.com/">
+							<Link href="https://hackday-recipes-app.herokuapp.com/">
 								<a target="_blank">Visit the heroku page</a>
 							</Link>
-							<Link href="https://github.com/FabrizioOnorio/guess-who">
-								<a target="_blank">Code on GitHub for the main app</a>
-							</Link>
-							<Link href="https://github.com/FabrizioOnorio/guess-who-socket">
-								<a target="_blank">Code on GitHub for the socket server</a>
+
+							<Link href="https://github.com/FabrizioOnorio/recipesApp">
+								<a target="_blank">Code on GitHub</a>
 							</Link>
 						</section>
 					</section>
