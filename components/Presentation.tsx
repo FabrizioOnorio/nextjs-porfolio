@@ -13,12 +13,6 @@ export const Presentation: React.FC = () => {
 					<h4>
 						I love using code, for making products that people love using.{" "}
 					</h4>
-					<Spacer y={3} />
-
-					<Link href={"#projects"}>
-						<a className={"projects-button"}>My projects</a>
-					</Link>
-					<Spacer />
 				</section>
 			</section>
 		</section>

@@ -22,7 +22,7 @@ a:hover {
 
 * {
 	box-sizing: border-box;
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .navbar {
@@ -127,21 +127,6 @@ a:hover {
 	font-size: 3.4em;
 }
 
-.projects-button {
-	padding: 1rem;
-	border-radius: 0.7rem;
-	background-color: #191504;
-	border: solid 1px #fcfbfd;
-	color: #fcfbfd;
-}
-
-.projects-button:hover {
-	color: #191504;
-	background-color: #fcfbfd;
-	padding: 1rem;
-	border-radius: 0.7rem;
-}
-
 .presentation-description {
 	text-align: center;
 	padding: 0 1rem;
@@ -200,37 +185,36 @@ a:hover {
 
 .project-page-section {
 	text-align: center;
-  min-height: 100vh;
-  padding-top: 3.5rem;
+	min-height: 100vh;
+	padding-top: 3.5rem;
 }
 
 .project-page-description {
 	padding: 0.3rem 1.3rem;
 	margin: 0 auto;
 	max-width: 60rem;
-
 }
 
 .project-page-img {
-  border-radius: 0.7rem;
+	border-radius: 0.7rem;
 }
 
 .project-page-text {
-  background-color: #094b44;
-  padding: 1rem;
-  border-radius: 0.7rem;
-  margin-top: 1rem;
+	background-color: #094b44;
+	padding: 1rem;
+	border-radius: 0.7rem;
+	margin-top: 1rem;
 }
 
 .project-page-section h1 {
-	color: #f2c600
+	color: #f2c600;
 }
 
 .project-page-text p {
-  font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 
 .projects-page-links {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
