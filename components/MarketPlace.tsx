@@ -7,11 +7,9 @@ export const MarketPlace: React.FC = () => {
 		<article className="project-card">
 			<h3>Rails Market Place</h3>
 			<section className="project-card--links">
-				<Link href="/rails-marketplace">
-					<a className="readMore">
-						Read more <BsFillArrowRightCircleFill />
-					</a>
-				</Link>
+				<a className="readMore" href="/rails-marketplace">
+					Read more <BsFillArrowRightCircleFill />
+				</a>
 				<Link href="https://github.com/Sarowa158/fabrics_marketplace">
 					<a target="_blank">
 						<BsGithub /> GitHub
