@@ -143,13 +143,22 @@ a:hover {
 	text-align: center;
 	border: 1px solid #fcfbfd;
 	max-width: 16rem;
-	padding: 1rem;
 	border-radius: 0.7rem;
 	min-height: 12rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	background-color: #105a52a4;
+}
+
+.project-card-text {
+	padding: 1rem;
+}
+
+.project-card-img {
+	border-bottom-left-radius: 0.7rem;
+	border-bottom-right-radius: 0.7rem;
+
 }
 
 .project-card:hover {
