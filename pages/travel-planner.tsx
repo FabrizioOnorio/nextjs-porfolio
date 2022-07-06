@@ -9,8 +9,8 @@ const TravelPlannerPage: NextPage = () => {
 	return (
 		<>
 			<Background />
-      <Nav />
 			<section className="project-page-section">
+      <Nav />
 				<h1>Travel Planner</h1>
 				<section className="project-page-description">
 					<Image
