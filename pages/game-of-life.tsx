@@ -3,41 +3,38 @@ import Link from "next/link";
 import { Background } from "../components/Particles";
 import Image from "next/image";
 
-
 const GameOfLifePage: NextPage = () => {
 	return (
 		<>
 			<Background />
 			<section className="project-page-section">
-				<h1>Guess Who Game</h1>
+				<h1>Conway&apos;s Game of Life</h1>
 				<section className="project-page-description">
 					<Image
 						objectFit="cover"
 						width={350}
 						height={350}
-						src={"/guess-who.png"}
-						alt={"prototype screenshots of the recipes project"}
+						src={"/game-of-life-picture.png"}
+						alt={"prototype screenshots of the game of life project"}
 						className="project-page-img"
 					/>
 					<section className="project-page-text">
 						<p>
-							This application is the implementation of the famous{" "}
-							<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
-								<a target="_blank">Guess Who</a>
-							</Link>{" "}
-							game.<br></br> The app was made using React with Typescript and
-							Redux for the front-end, for the back-end we used Express together
-							with a socket.io.
+							This is the implementation of the famous Conway&apos;s game of
+							life. I made this Game both on React and on Rails.
 						</p>
 						<section className="projects-page-links">
-							<Link href="https://guess-who-salt-game.herokuapp.com/">
-								<a target="_blank">Visit the heroku page</a>
+							<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
+								<a target="_blank">Visit the Vercel page for the React App</a>
 							</Link>
-							<Link href="https://github.com/FabrizioOnorio/guess-who">
-								<a target="_blank">Code on GitHub for the main app</a>
+							<Link href="https://game-of-life-fab.herokuapp.com/">
+								<a target="_blank">Visit the Heroku page for the Rails App</a>
 							</Link>
-							<Link href="https://github.com/FabrizioOnorio/guess-who-socket">
-								<a target="_blank">Code on GitHub for the socket server</a>
+							<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
+								<a target="_blank">Code on GitHub (React App)</a>
+							</Link>
+							<Link href="https://github.com/FabrizioOnorio/game-of-life">
+								<a target="_blank">Code on GitHub (Rails App)</a>
 							</Link>
 						</section>
 					</section>
