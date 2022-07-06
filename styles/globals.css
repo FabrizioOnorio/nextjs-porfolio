@@ -38,7 +38,6 @@ a:hover {
 	width: 100%;
 	z-index: 1;
 	padding: 0 0.5rem;
-	/* border-bottom: 1px solid #17acca; */
 }
 
 .navbar a {
@@ -62,7 +61,7 @@ a:hover {
 }
 
 .main-page {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -200,7 +199,6 @@ a:hover {
 }
 
 .project-page-section {
-  margin-top: 1rem;
 	text-align: center;
   min-height: 100vh;
   padding-top: 2.5rem;
