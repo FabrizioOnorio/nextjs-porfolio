@@ -5,7 +5,14 @@ const GuessWhoPage: NextPage = () => {
 	return (
 		<>
 			<Background />
-      <h1>ciao</h1>
+			<section className="project-page-section">
+				<h1>Guess Who Game</h1>
+				<section className="project-page-description">
+					<section className="project-page-text">
+            
+          </section>
+				</section>
+			</section>
 		</>
 	);
 };

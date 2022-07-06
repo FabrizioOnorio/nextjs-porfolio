@@ -197,3 +197,7 @@ a:hover {
   align-items: center;
   gap: 0.5rem
 }
+
+.project-page-section {
+  text-align: center;
+}
