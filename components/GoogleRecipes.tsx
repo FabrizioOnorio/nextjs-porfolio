@@ -8,7 +8,7 @@ export const GoogleRecipes: React.FC = () => {
 		<article className="project-card">
 			<h3>Google Recipes</h3>
 			<section className="project-card--links">
-				<Link href="/google-recipes">
+				<Link href="/google-recipes#gr">
 					<a className="readMore">
 						Read more <BsFillArrowRightCircleFill />
 					</a>

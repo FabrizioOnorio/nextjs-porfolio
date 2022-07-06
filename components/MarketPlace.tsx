@@ -7,7 +7,7 @@ export const MarketPlace: React.FC = () => {
 		<article className="project-card">
 			<h3>Rails Market Place</h3>
 			<section className="project-card--links">
-				<Link href="/rails-marketplace">
+				<Link href="/rails-marketplace#rmp">
 					<a className="readMore">
 						Read more <BsFillArrowRightCircleFill />
 					</a>

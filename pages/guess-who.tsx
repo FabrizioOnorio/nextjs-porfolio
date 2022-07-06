@@ -9,7 +9,7 @@ const GuessWhoPage: NextPage = () => {
 	return (
 		<>
 			<Background />
-			<section className="project-page-section">
+			<section className="project-page-section" id="gw">
       <Nav />
 				<h1>Guess Who Game</h1>
 				<section className="project-page-description">

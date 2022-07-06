@@ -8,7 +8,7 @@ export const TravelPlanner: React.FC = () => {
 		<article className="project-card">
 			<h3>Travel Planner</h3>
 			<section className="project-card--links">
-				<Link href="/travel-planner">
+				<Link href="/travel-planner#tp">
 					<a className="readMore">
 						Read more <BsFillArrowRightCircleFill />
 					</a>

@@ -9,7 +9,7 @@ const TravelPlannerPage: NextPage = () => {
 	return (
 		<>
 			<Background />
-			<section className="project-page-section">
+			<section className="project-page-section" id="tp">
       <Nav />
 				<h1>Travel Planner</h1>
 				<section className="project-page-description">
