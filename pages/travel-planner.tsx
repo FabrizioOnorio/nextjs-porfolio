@@ -24,7 +24,7 @@ const TravelPlannerPage: NextPage = () => {
 					<section className="project-page-text">
 						<p>
 							A Ruby on rails Mobile-Web-App to plan your trip based on covid
-							travel restrictions. To retrieve real data we used 2{" "}
+							travel restrictions.<br></br> To retrieve real data we used 2{" "}
 							<Link href="https://developers.amadeus.com/">
 								<a target="_blank">&quot;Amadeus for Developers&quot;</a>
 							</Link>

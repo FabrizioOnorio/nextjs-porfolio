@@ -24,7 +24,7 @@ const GoogleRecipesPage: NextPage = () => {
 					<section className="project-page-text">
 						<p>
 							I made this application using React with Typescript for the
-							front-end, for the back-end I used Express. This project was made
+							front-end, for the back-end I used Express.<br></br> This project was made
 							for Hackday in Salt.
 						</p>
 						<section className="projects-page-links">

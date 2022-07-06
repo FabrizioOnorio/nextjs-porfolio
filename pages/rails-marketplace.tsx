@@ -24,7 +24,7 @@ const RailsMarketPlacePage: NextPage = () => {
 					<section className="project-page-text">
 						<p>
 							A Ruby on Rails Desktop-Web-App. This was our first team project
-							in Le Wagon Coding Bootcamp. The use if for selling recycled
+							in Le Wagon Coding Bootcamp.<br></br> The use of it is for selling recycled
 							fabrics.
 						</p>
 						<section className="projects-page-links">
