@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Background } from "../components/Particles/Particles";
+import { Background } from "../components/Particles";
 
 const TravelPlannerPage: NextPage = () => {
 	return (

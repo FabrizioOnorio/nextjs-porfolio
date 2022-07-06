@@ -9,11 +9,12 @@ import {
 	SiMongodb,
 	SiExpress,
 	SiRedux,
+	SiNextdotjs,
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { DiRuby } from "react-icons/di";
 import { BsBootstrapFill, BsGithub } from "react-icons/bs";
-import { Row, Text, Spacer } from "@nextui-org/react";
+import { Row, Spacer, Tooltip } from "@nextui-org/react";
 
 export const TeckStack: React.FC = () => {
 	return (
@@ -25,21 +26,54 @@ export const TeckStack: React.FC = () => {
 				<Spacer y={2} />
 
 				<section className="teck-stack">
-					<FaReact className="teck-stack--element" />
-					<SiTypescript className="teck-stack--element" />
-					<SiRubyonrails className="teck-stack--element" />
-					<SiJavascript className="teck-stack--element" />
-					<IoLogoCss3 className="teck-stack--element" />
-					<FaHtml5 className="teck-stack--element" />
-					<BsBootstrapFill className="teck-stack--element" />
-					<BsGithub className="teck-stack--element" />
-					<FaGitSquare className="teck-stack--element" />
-					<SiPostgresql className="teck-stack--element" />
-					<SiHeroku className="teck-stack--element" />
-					<SiMongodb className="teck-stack--element" />
-					<SiExpress className="teck-stack--element" />
-					<SiRedux className="teck-stack--element" />
-					<DiRuby className="teck-stack--element" />
+					<Tooltip content={"React"}>
+						<FaReact className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"TypeScript"}>
+						<SiTypescript className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Ruby on Rails"}>
+						<SiRubyonrails className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"JavaScript"}>
+						<SiJavascript className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"CSS"}>
+						<IoLogoCss3 className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"HTML5"}>
+						<FaHtml5 className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Bootstrap"}>
+						<BsBootstrapFill className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"GitHub"}>
+						<BsGithub className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Git"}>
+						<FaGitSquare className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Postgresql"}>
+						<SiPostgresql className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Heroku"}>
+						<SiHeroku className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"MongoDB"}>
+						<SiMongodb className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Express"}>
+						<SiExpress className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Redux"}>
+						<SiRedux className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Ruby"}>
+						<DiRuby className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Next.js"}>
+						<SiNextdotjs className="teck-stack--element" />
+					</Tooltip>
 				</section>
 			</section>
 		</section>

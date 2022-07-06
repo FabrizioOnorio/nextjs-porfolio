@@ -168,7 +168,7 @@ a:hover {
 }
 
 .project-card:hover {
-	border: 3px solid #f2c600;
+	border: 1px solid #f2c600;
 }
 
 .project-card--links {

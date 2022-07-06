@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import Link from "next/link";
-import { Row, Text, Spacer } from "@nextui-org/react";
+import { Row, Spacer } from "@nextui-org/react";
 
 export const Contacts: React.FC = () => {
 	return (

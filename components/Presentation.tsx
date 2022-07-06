@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Text, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import { Title } from "./Title";
 
 export const Presentation: React.FC = () => {

@@ -4,7 +4,6 @@ import { GoogleRecipes } from "./GoogleRecipes";
 import { GameOfLife } from "./GameOfLife";
 import { TravelPlanner } from "./TravelPlanner";
 import { MarketPlace } from "./MarketPlace";
-import { Container, Spacer, Text, Row } from "@nextui-org/react";
 
 export const Projects: React.FC = () => {
 
