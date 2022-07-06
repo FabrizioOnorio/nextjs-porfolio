@@ -8,9 +8,11 @@ export const GameOfLife: React.FC = () => {
 		<article className="project-card">
 			<h3>Game of Life</h3>
 			<section className="project-card--links">
-				<a className="readMore" href="/game-of-life">
-					Read more <BsFillArrowRightCircleFill />
-				</a>
+				<Link href="/game-of-life" passHref>
+					<a className="readMore">
+						Read more <BsFillArrowRightCircleFill />
+					</a>
+				</Link>
 				<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 					<a target="_blank">
 						<BiWorld /> Visit the web page

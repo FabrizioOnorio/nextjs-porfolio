@@ -8,9 +8,11 @@ export const GoogleRecipes: React.FC = () => {
 		<article className="project-card">
 			<h3>Google Recipes</h3>
 			<section className="project-card--links">
-				<a className="readMore" href="/google-recipes">
-					Read more <BsFillArrowRightCircleFill />
-				</a>
+				<Link href="/google-recipes" passHref>
+					<a className="readMore">
+						Read more <BsFillArrowRightCircleFill />
+					</a>
+				</Link>
 				<Link href="https://hackday-recipes-app.herokuapp.com/">
 					<a target="_blank">
 						<BiWorld /> Visit the web page
