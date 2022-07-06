@@ -8,7 +8,7 @@ export const GuessWho: React.FC = () => {
 		<article className="project-card">
 			<h3>Guess Who</h3>
 			<section className="project-card--links">
-				<Link href="/guess-who" scroll>
+				<Link href="/guess-who">
 					<a className="readMore">Read more <BsFillArrowRightCircleFill /></a>
 				</Link>
 				<Link href="https://guess-who-salt-game.herokuapp.com/" passHref>
