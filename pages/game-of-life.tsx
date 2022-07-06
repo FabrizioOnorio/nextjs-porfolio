@@ -12,7 +12,7 @@ const GameOfLifePage: NextPage = () => {
 			<section className="project-page-section">
       <Nav />
 				<h1>Conway&apos;s Game of Life</h1>
-				<section className="project-page-description" id="gof">
+				<section className="project-page-description">
 					<Image
 						objectFit="cover"
 						width={350}

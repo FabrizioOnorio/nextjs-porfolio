@@ -9,7 +9,7 @@ const GoogleRecipesPage: NextPage = () => {
 	return (
 		<>
 			<Background />
-			<section className="project-page-section" id="gr">
+			<section className="project-page-section">
       <Nav />
 				<h1>Google Recipes</h1>
 				<section className="project-page-description">
