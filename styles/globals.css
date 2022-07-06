@@ -22,7 +22,7 @@ a:hover {
 
 * {
 	box-sizing: border-box;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .navbar {

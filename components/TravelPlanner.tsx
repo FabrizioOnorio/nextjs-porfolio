@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import { Link } from "@nextui-org/react";
 import { BiWorld } from "react-icons/bi";
 import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
 
@@ -8,10 +8,8 @@ export const TravelPlanner: React.FC = () => {
 		<article className="project-card">
 			<h3>Travel Planner</h3>
 			<section className="project-card--links">
-				<Link href="/travel-planner" passHref>
-					<a className="readMore">
-						Read more <BsFillArrowRightCircleFill />
-					</a>
+				<Link href="/travel-planner" className="readMore">
+					Read more <BsFillArrowRightCircleFill />
 				</Link>
 				<Link href="http://www.traveld.eu/">
 					<a target="_blank">
