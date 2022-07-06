@@ -8,7 +8,7 @@ export const GameOfLife: React.FC = () => {
 		<article className="project-card">
 			<h3>Game of Life</h3>
 			<section className="project-card--links">
-				<Link href="/game-of-life#gof">
+				<Link href="/game-of-life" scroll>
 					<a className="readMore">
 						Read more <BsFillArrowRightCircleFill />
 					</a>
