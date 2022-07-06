@@ -2,11 +2,14 @@ import type { NextPage } from "next";
 import { Background } from "../components/Particles";
 import Image from "next/image";
 import Link from "next/link";
+import { Footer } from "../components/Footer";
+import { Nav } from "../components/Nav";
 
 const RailsMarketPlacePage: NextPage = () => {
 	return (
 		<>
 			<Background />
+      <Nav />
 			<section className="project-page-section">
 				<h1>Market Place for Fabrics</h1>
 				<section className="project-page-description">
@@ -32,6 +35,7 @@ const RailsMarketPlacePage: NextPage = () => {
 					</section>
 				</section>
 			</section>
+      <Footer />
 		</>
 	);
 };

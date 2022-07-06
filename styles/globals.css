@@ -22,6 +22,7 @@ a:hover {
 
 * {
 	box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -201,6 +202,8 @@ a:hover {
 .project-page-section {
   margin-top: 1rem;
 	text-align: center;
+  min-height: 100vh;
+  padding-top: 2.5rem;
 }
 
 .project-page-description {

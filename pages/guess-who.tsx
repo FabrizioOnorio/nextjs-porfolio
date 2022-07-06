@@ -2,11 +2,14 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Background } from "../components/Particles";
+import { Footer } from "../components/Footer";
+import { Nav } from "../components/Nav";
 
 const GuessWhoPage: NextPage = () => {
 	return (
 		<>
 			<Background />
+      <Nav />
 			<section className="project-page-section">
 				<h1>Guess Who Game</h1>
 				<section className="project-page-description">
@@ -42,6 +45,7 @@ const GuessWhoPage: NextPage = () => {
 					</section>
 				</section>
 			</section>
+      <Footer />
 		</>
 	);
 };

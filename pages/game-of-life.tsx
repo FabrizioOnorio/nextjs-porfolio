@@ -2,11 +2,14 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import { Background } from "../components/Particles";
 import Image from "next/image";
+import { Footer } from "../components/Footer";
+import { Nav } from "../components/Nav";
 
 const GameOfLifePage: NextPage = () => {
 	return (
 		<>
 			<Background />
+      <Nav />
 			<section className="project-page-section">
 				<h1>Conway&apos;s Game of Life</h1>
 				<section className="project-page-description">
@@ -40,6 +43,7 @@ const GameOfLifePage: NextPage = () => {
 					</section>
 				</section>
 			</section>
+      <Footer />
 		</>
 	);
 };

@@ -6,13 +6,13 @@ export const Nav: React.FC = () => {
 	return (
 		<nav className="navbar">
 			<Row justify="center" align="center">
-				<Link href={"#home"}>Home</Link>
+				<Link href={"/#home"}>Home</Link>
 				<Spacer y={2} />
-				<Link href={"#teck-stack"}>Teck Stack</Link>
+				<Link href={"/#teck-stack"}>Teck Stack</Link>
 				<Spacer y={2} />
-				<Link href={"#projects"}>Projects</Link>
+				<Link href={"/#projects"}>Projects</Link>
 				<Spacer y={2} />
-				<Link href={"#contacts"}>Contacts</Link>
+				<Link href={"/#contacts"}>Contacts</Link>
 			</Row>
 		</nav>
 	);

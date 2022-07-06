@@ -2,11 +2,14 @@ import type { NextPage } from "next";
 import { Background } from "../components/Particles";
 import Image from "next/image";
 import Link from "next/link";
+import { Footer } from "../components/Footer";
+import { Nav } from "../components/Nav";
 
 const GoogleRecipesPage: NextPage = () => {
 	return (
 		<>
 			<Background />
+      <Nav />
 			<section className="project-page-section">
 				<h1>Google Recipes</h1>
 				<section className="project-page-description">
@@ -36,6 +39,7 @@ const GoogleRecipesPage: NextPage = () => {
 					</section>
 				</section>
 			</section>
+      <Footer />
 		</>
 	);
 };
