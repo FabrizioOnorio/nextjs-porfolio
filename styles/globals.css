@@ -107,7 +107,7 @@ a:hover {
 
 .projects-section {
 	text-align: center;
-	padding-top: 5rem;
+	padding-top: 1rem;
 	min-height: 100vh;
 }
 
@@ -156,8 +156,8 @@ a:hover {
 }
 
 .project-card-img {
-	border-bottom-left-radius: 0.7rem;
-	border-bottom-right-radius: 0.7rem;
+	border-top-left-radius: 0.7rem;
+	border-top-right-radius: 0.7rem;
 
 }
 

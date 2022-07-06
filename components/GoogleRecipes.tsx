@@ -8,6 +8,14 @@ import Image from "next/image";
 export const GoogleRecipes: React.FC = () => {
 	return (
 		<article className="project-card">
+			<Image
+				objectFit="cover"
+				width={200}
+				height={200}
+				src={"/recipes-project.png"}
+				alt={"prototype screenshots of the recipes project"}
+				className="project-card-img"
+			/>
 			<div className="project-card-text">
 				<h3>Google Recipes</h3>
 				<section className="project-card--links">
@@ -29,14 +37,6 @@ export const GoogleRecipes: React.FC = () => {
 					</Link>
 				</section>
 			</div>
-			<Image
-				objectFit="cover"
-				width={200}
-				height={200}
-				src={"/guess-who.png"}
-				alt={"prototype screenshots of the recipes project"}
-				className="project-card-img"
-			/>
 		</article>
 	);
 };

@@ -8,6 +8,14 @@ import Image from "next/image";
 export const TravelPlanner: React.FC = () => {
 	return (
 		<article className="project-card">
+			<Image
+				objectFit="cover"
+				width={200}
+				height={200}
+				src={"/travel_planner.jpeg"}
+				alt={"prototype screenshots of the travel planner project"}
+				className="project-card-img"
+			/>
 			<div className="project-card-text">
 				<h3>Travel Planner</h3>
 				<section className="project-card--links">
@@ -29,14 +37,6 @@ export const TravelPlanner: React.FC = () => {
 					</Link>
 				</section>
 			</div>
-			<Image
-				objectFit="cover"
-				width={200}
-				height={200}
-				src={"/guess-who.png"}
-				alt={"prototype screenshots of the recipes project"}
-				className="project-card-img"
-			/>
 		</article>
 	);
 };

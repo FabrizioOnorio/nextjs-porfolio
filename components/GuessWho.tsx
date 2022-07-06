@@ -8,6 +8,14 @@ import Image from "next/image";
 export const GuessWho: React.FC = () => {
 	return (
 		<article className="project-card">
+			<Image
+				objectFit="cover"
+				width={200}
+				height={200}
+				src={"/guess-who.png"}
+				alt={"prototype screenshots of the recipes project"}
+				className="project-card-img"
+			/>
 			<div className="project-card-text">
 				<h3>Guess Who</h3>
 				<section className="project-card--links">
@@ -37,14 +45,6 @@ export const GuessWho: React.FC = () => {
 					</Link>
 				</section>
 			</div>
-			<Image
-				objectFit="cover"
-				width={200}
-				height={200}
-				src={"/guess-who.png"}
-				alt={"prototype screenshots of the recipes project"}
-				className="project-card-img"
-			/>
 		</article>
 	);
 };
