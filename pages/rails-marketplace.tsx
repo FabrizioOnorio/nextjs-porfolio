@@ -18,7 +18,7 @@ const RailsMarketPlacePage: NextPage = () => {
 						width={350}
 						height={350}
 						src={"/fabrics.png"}
-						alt={"prototype screenshots of the fabrics airbnb clone project"}
+						alt={"prototype screenshots of a fabrics marketplace for a airbnb clone project"}
 						className="project-page-img"
 					/>
 					<section className="project-page-text">
