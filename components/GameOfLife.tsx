@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Link as LinkUi } from "@nextui-org/react";
 import { BiWorld } from "react-icons/bi";
 import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
 import Image from "next/image";
@@ -19,11 +18,11 @@ export const GameOfLife: React.FC = () => {
 			<div className="project-card-text">
 				<h3>Game of Life</h3>
 				<section className="project-card--links">
-					<LinkUi href="/game-of-life" className="readMore">
-						<a>
+					<Link href="/game-of-life">
+						<a className="readMore">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
-					</LinkUi>
+					</Link>
 					<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 						<a target="_blank">
 							<BiWorld /> Visit the web page

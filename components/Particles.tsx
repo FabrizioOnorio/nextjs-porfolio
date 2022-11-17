@@ -10,7 +10,6 @@ export const Background: React.FC = () => {
 		<Particles
 			id="tsparticles"
 			init={particlesInit}
-
 			options={{
 				fpsLimit: 120,
 				interactivity: {

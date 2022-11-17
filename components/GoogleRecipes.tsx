@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Link as LinkUi } from "@nextui-org/react";
 import { BiWorld } from "react-icons/bi";
 import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
 import Image from "next/image";
@@ -19,11 +18,11 @@ export const GoogleRecipes: React.FC = () => {
 			<div className="project-card-text">
 				<h3>Google Recipes</h3>
 				<section className="project-card--links">
-					<LinkUi href="/google-recipes" className="readMore">
-						<a>
+					<Link href="/google-recipes">
+						<a className="readMore">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
-					</LinkUi>
+					</Link>
 					<Link href="https://hackday-recipes-app.herokuapp.com/">
 						<a target="_blank">
 							<BiWorld /> Visit the web page

@@ -186,10 +186,7 @@ a:hover {
 }
 
 .readMore {
-	display: flex;
-	margin-bottom: 1rem;
-	align-items: center;
-	gap: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .project-page-section {

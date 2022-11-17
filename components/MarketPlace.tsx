@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Link as LinkUi } from "@nextui-org/react";
 import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
@@ -18,11 +17,11 @@ export const MarketPlace: React.FC = () => {
 			<div className="project-card-text">
 				<h3>Rails Market Place</h3>
 				<section className="project-card--links">
-					<LinkUi href="/rails-marketplace" className="readMore">
-						<a>
+					<Link href="/rails-marketplace">
+						<a className="readMore">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
-					</LinkUi>
+					</Link>
 					<Link href="https://github.com/Sarowa158/fabrics_marketplace">
 						<a target="_blank">
 							<BsGithub /> GitHub
