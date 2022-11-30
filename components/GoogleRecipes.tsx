@@ -23,11 +23,11 @@ export const GoogleRecipes: React.FC = () => {
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
-					<Link href="https://hackday-recipes-app.herokuapp.com/">
+					{/* <Link href="https://hackday-recipes-app.herokuapp.com/">
 						<a target="_blank">
 							<BiWorld /> Visit the web page
 						</a>
-					</Link>
+					</Link> */}
 
 					<Link href="https://github.com/FabrizioOnorio/recipesApp">
 						<a target="_blank">

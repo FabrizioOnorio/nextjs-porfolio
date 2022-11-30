@@ -28,9 +28,9 @@ const GoogleRecipesPage: NextPage = () => {
 							for Hackday in Salt.
 						</p>
 						<section className="projects-page-links">
-							<Link href="https://hackday-recipes-app.herokuapp.com/">
+							{/* <Link href="https://hackday-recipes-app.herokuapp.com/">
 								<a target="_blank">Visit the heroku page</a>
-							</Link>
+							</Link> */}
 
 							<Link href="https://github.com/FabrizioOnorio/recipesApp">
 								<a target="_blank">Code on GitHub</a>

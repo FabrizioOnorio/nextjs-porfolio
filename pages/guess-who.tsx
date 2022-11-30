@@ -32,9 +32,9 @@ const GuessWhoPage: NextPage = () => {
 							with a socket.io.
 						</p>
 						<section className="projects-page-links">
-							<Link href="https://guess-who-salt-game.herokuapp.com/">
+							{/* <Link href="https://guess-who-salt-game.herokuapp.com/">
 								<a target="_blank">Visit the heroku page</a>
-							</Link>
+							</Link> */}
 							<Link href="https://github.com/FabrizioOnorio/guess-who">
 								<a target="_blank">Code on GitHub for the main app</a>
 							</Link>

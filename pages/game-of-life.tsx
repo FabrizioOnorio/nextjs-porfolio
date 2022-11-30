@@ -30,9 +30,9 @@ const GameOfLifePage: NextPage = () => {
 							<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 								<a target="_blank">Visit the Vercel page for the React App</a>
 							</Link>
-							<Link href="https://game-of-life-fab.herokuapp.com/">
+							{/* <Link href="https://game-of-life-fab.herokuapp.com/">
 								<a target="_blank">Visit the Heroku page for the Rails App</a>
-							</Link>
+							</Link> */}
 							<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
 								<a target="_blank">Code on GitHub (React App)</a>
 							</Link>

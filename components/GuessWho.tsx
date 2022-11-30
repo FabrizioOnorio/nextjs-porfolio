@@ -23,11 +23,11 @@ export const GuessWho: React.FC = () => {
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
-					<Link href="https://guess-who-salt-game.herokuapp.com/" passHref>
+					{/* <Link href="https://guess-who-salt-game.herokuapp.com/" passHref>
 						<a target="_blank">
 							<BiWorld /> Visit the web page
 						</a>
-					</Link>
+					</Link> */}
 
 					<Link href="https://github.com/FabrizioOnorio/guess-who" passHref>
 						<a target="_blank">

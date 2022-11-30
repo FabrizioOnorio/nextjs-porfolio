@@ -31,9 +31,9 @@ const TravelPlannerPage: NextPage = () => {
 							.
 						</p>
 						<section className="projects-page-links">
-							<Link href="http://www.traveld.eu/">
+							{/* <Link href="http://www.traveld.eu/">
 								<a target="_blank">Visit traveld.eu</a>
-							</Link>
+							</Link> */}
 
 							<Link href="https://github.com/FabrizioOnorio/travel_planner2">
 								<a target="_blank">Code on GitHub</a>
