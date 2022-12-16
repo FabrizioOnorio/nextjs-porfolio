@@ -23,11 +23,6 @@ export const TravelPlanner: React.FC = () => {
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
-					{/* <Link href="http://covid-travel-planner.herokuapp.com/">
-						<a target="_blank">
-							<BiWorld /> Visit the web page
-						</a>
-					</Link> */}
 
 					<Link href="https://github.com/FabrizioOnorio/travel_planner2">
 						<a target="_blank">
