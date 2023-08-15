@@ -11,7 +11,7 @@ export const Contacts: React.FC = () => {
 			<section className="contacts-section--text">
 				<Spacer />
 				<Row justify="center" align="center">
-					<h2>Get In Touch</h2>
+					<h2 className="text-xl font-semibold">Get In Touch</h2>
 				</Row>
 				<Spacer y={2} />
 				<Row justify="center" align="center">

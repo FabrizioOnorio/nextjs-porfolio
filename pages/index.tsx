@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-document-import-in-page */
 import type { NextPage } from "next";
 import { Presentation } from "../components/Presentation";
 import { TeckStack } from "../components/TeckStack";
@@ -12,7 +11,7 @@ import { Background } from "../components/Particles";
 const Home: NextPage = () => {
 	return (
 		<>
-      <Background />
+      		<Background />
 			<Header />
 			<Nav />
 			<Presentation />
