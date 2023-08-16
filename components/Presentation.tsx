@@ -7,11 +7,6 @@ export const Presentation: React.FC = () => {
 					<h1 className="text-3xl">Hello! I&apos;m Fabrizio,</h1>
 					<h3>a Full-Stack <span className="text-yellow-400">TypeScript</span> Developer</h3>
 				</div>
-			<section className="w-full flex justify-center">
-				<h4 className="text-lg mt-4 mx-4 max-w-3/6 break-all ">
-					I love using code, for making products that people love using.
-				</h4>
-			</section>
 		</section>
 	);
 };
