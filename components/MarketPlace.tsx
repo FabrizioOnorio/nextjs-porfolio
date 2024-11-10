@@ -9,7 +9,7 @@ export const MarketPlace: React.FC = () => {
 			<Image
 				objectFit="cover"
 				width={200}
-				height={200}
+				height={140}
 				src={"/fabrics.png"}
 				alt={"prototype screenshots of the fabrics airbnb clone project"}
 				className="project-card-img"
@@ -18,13 +18,13 @@ export const MarketPlace: React.FC = () => {
 				<h3>Rails Market Place</h3>
 				<section className="project-card--links">
 					<Link href="/rails-marketplace">
-						<a className="readMore">
+						<a className="card-link">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
 					<Link href="https://github.com/Sarowa158/fabrics_marketplace">
-						<a target="_blank">
-							<BsGithub /> GitHub
+						<a target="_blank" className="card-link">
+							GitHub <BsGithub />
 						</a>
 					</Link>
 				</section>

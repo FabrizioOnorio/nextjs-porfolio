@@ -16,10 +16,10 @@ import { Row, Spacer, Tooltip } from "@nextui-org/react";
 
 export const TeckStack: React.FC = () => {
 	return (
-		<section className="teck-stack-section" id={"teck-stack"}>
+		<section className="teck-stack-section" id="teck-stack">
 			<section className="teck-stack-section--text">
 				<Row justify="center" align="center">
-					<h2 className="text-xl font-semibold">Tech Stack</h2>
+					<h2 className="text-3xl font-semibold">Tech Stack</h2>
 				</Row>
 				<Spacer y={2} />
 

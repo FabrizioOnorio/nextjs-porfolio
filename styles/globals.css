@@ -11,9 +11,9 @@ body {
 	margin: 0;
 	font-family: "JetBrains Mono", monospace;
 	scroll-behavior: smooth;
-	background-color: #272534;
-
+	background-color: #191919;
 	color: #fcfbfd !important;
+	height: 100%;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-	color: #f2c600;
+	color: #66b4b7;
 }
 
 * {
@@ -35,14 +35,15 @@ a:hover {
 	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
-	background-color: #094b44;
-	color: #f2c600;
+	background-color: #003436;
+	color: #66b4b7;
 	min-height: 3rem;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 1;
+	z-index: 100;
 	padding: 0 0.5rem;
+	box-shadow: 4px 4px 60px 0px #000;
 }
 
 .navbar a {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 .navbar a:hover {
-	color: #f2c600;
+	color: #66b4b7;
 }
 
 .footer {
@@ -58,11 +59,12 @@ a:hover {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	min-height: 1rem;
+	min-height: 2rem;
 	width: 100%;
-	background-color: #094b44;
-	color: #f2c600;
+	background-color: #003436;
+	color: #66b4b7;
 	bottom: 0;
+	margin-top: auto;
 }
 
 .main-page {
@@ -84,7 +86,7 @@ a:hover {
 }
 
 .title h3 {
-	color: #f2c600;
+	color: #ffffff;
 }
 
 .teck-stack {
@@ -146,79 +148,103 @@ a:hover {
 
 .project-card {
 	text-align: center;
-	border: 1px solid #fcfbfd;
-	max-width: 16rem;
+	width: 14em;
 	border-radius: 0.7rem;
-	min-height: 12rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	background-color: #105a52a4;
+	background-color: #003436;
+	position: relative;
+	z-index: 10;
+	box-shadow: 4px 4px 60px 0px #000;
+}
+
+.project-card-text h3 {
+	font-size: 1.2rem;
+	text-align: left;
+	font-weight: 700;
 }
 
 .project-card-text {
 	padding: 1rem;
+	height: 50%;
 }
 
 .project-card-img {
 	border-top-left-radius: 0.7rem;
 	border-top-right-radius: 0.7rem;
-
-}
-
-.project-card:hover {
-	border: 1px solid #f2c600;
 }
 
 .project-card--links {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	padding-top: 0.8rem;
 }
 
 .projects-section--projects {
 	padding: 3rem;
 	display: flex;
 	justify-content: center;
-	margin: 3vh auto 0 auto;
+	margin: 0 auto 0 auto;
 	gap: 3rem;
 	max-width: 60rem;
 	flex-wrap: wrap;
 }
 
 .teck-stack--element:hover {
-	color: #f2c600;
+	color: #66b4b7;
 }
 
-.readMore {
+.card-link {
 	margin-bottom: 0.5rem;
+	display: flex;
+	justify-content: space-between;
 }
 
 .project-page-section {
 	text-align: center;
-	min-height: 100vh;
 	padding-top: 3.5rem;
+	min-height: calc(100vh - 2rem);
+
 }
 
 .project-page-description {
-	padding: 0.3rem 1.3rem;
+	background-color: #003436;
 	margin: 0 auto;
-	max-width: 60rem;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem;;
+	margin-bottom: 2rem;
+	width: 70%;
+	border-radius: 0.7rem;
+	position: relative;
+	z-index: 10;
+	gap: 2rem;
+	box-shadow: 4px 4px 60px 0px #000;
+	flex-wrap: wrap;
 }
 
 .project-page-img {
 	border-radius: 0.7rem;
+	width: 45%;
 }
 
 .project-page-text {
-	background-color: #051d1a;
 	padding: 1rem;
-	border-radius: 0.7rem;
 	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: left;
+	width: 50%;
 }
 
 .project-page-section h1 {
-	color: #f2c600;
+	color: #ffffff;
+	margin-top: 2rem;
+	font-size: 2rem;
 }
 
 .project-page-text p {
@@ -228,4 +254,38 @@ a:hover {
 .projects-page-links {
 	display: flex;
 	flex-direction: column;
+	margin-top: 4rem;
+	gap: 1rem;
+	align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .project-page-description {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .project-page-img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .project-page-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-page-description {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .project-page-img {
+        width: 100%;
+    }
+
+    .project-page-text {
+        width: 100%;
+    }
 }

@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import { Background } from "../components/Particles";
 import Image from "next/image";
 import { Footer } from "../components/Footer";
 import { Nav } from "../components/Nav";
@@ -8,9 +7,8 @@ import { Nav } from "../components/Nav";
 const GameOfLifePage: NextPage = () => {
 	return (
 		<>
-			<Background />
 			<section className="project-page-section">
-      <Nav />
+      	<Nav />
 				<h1>Conway&apos;s Game of Life</h1>
 				<section className="project-page-description">
 					<Image
@@ -30,9 +28,6 @@ const GameOfLifePage: NextPage = () => {
 							<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 								<a target="_blank">Visit the Vercel page for the React App</a>
 							</Link>
-							{/* <Link href="https://game-of-life-fab.herokuapp.com/">
-								<a target="_blank">Visit the Heroku page for the Rails App</a>
-							</Link> */}
 							<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
 								<a target="_blank">Code on GitHub (React App)</a>
 							</Link>

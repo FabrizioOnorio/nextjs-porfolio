@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { Background } from "../components/Particles";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "../components/Footer";
@@ -8,7 +7,6 @@ import { Nav } from "../components/Nav";
 const GoogleRecipesPage: NextPage = () => {
 	return (
 		<>
-			<Background />
 			<section className="project-page-section">
       <Nav />
 				<h1>Google Recipes</h1>
@@ -28,10 +26,6 @@ const GoogleRecipesPage: NextPage = () => {
 							for Hackday in Salt.
 						</p>
 						<section className="projects-page-links">
-							{/* <Link href="https://hackday-recipes-app.herokuapp.com/">
-								<a target="_blank">Visit the heroku page</a>
-							</Link> */}
-
 							<Link href="https://github.com/FabrizioOnorio/recipesApp">
 								<a target="_blank">Code on GitHub</a>
 							</Link>

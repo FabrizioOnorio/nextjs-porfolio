@@ -10,7 +10,7 @@ export const NpmDownloads: React.FC = () => {
 			<Image
 				objectFit="cover"
 				width={200}
-				height={200}
+				height={140}
 				src={"/npmDownloads.png"}
 				alt={"prototype screenshots of the recipes project"}
 				className="project-card-img"
@@ -19,19 +19,19 @@ export const NpmDownloads: React.FC = () => {
 				<h3>Npm Downloads</h3>
 				<section className="project-card--links">
 					<Link href="/npm-downloads">
-						<a className="readMore">
+						<a className="card-link">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
 					<Link href="https://npm-download-count.vercel.app/">
-						<a target="_blank">
-							<BiWorld /> Visit the web page
+						<a target="_blank" className="card-link">
+							Visit the page <BiWorld />
 						</a>
 					</Link>
 
 					<Link href="https://github.com/FabrizioOnorio/npm-download-count">
-						<a target="_blank">
-							<BsGithub /> GitHub
+						<a target="_blank" className="card-link">
+							GitHub <BsGithub />
 						</a>
 					</Link>
 				</section>

@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { Background } from "../components/Particles";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "../components/Footer";
@@ -8,7 +7,6 @@ import { Nav } from "../components/Nav";
 const NpmDownloadsPage: NextPage = () => {
 	return (
 		<>
-			<Background />
 			<section className="project-page-section">
 				<Nav />
 				<h1>Npm Downloads</h1>

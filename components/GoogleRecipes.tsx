@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { BiWorld } from "react-icons/bi";
 import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
@@ -10,7 +9,7 @@ export const GoogleRecipes: React.FC = () => {
 			<Image
 				objectFit="cover"
 				width={200}
-				height={200}
+				height={140}
 				src={"/recipes-project.png"}
 				alt={"prototype screenshots of the recipes project"}
 				className="project-card-img"
@@ -19,19 +18,14 @@ export const GoogleRecipes: React.FC = () => {
 				<h3>Google Recipes</h3>
 				<section className="project-card--links">
 					<Link href="/google-recipes">
-						<a className="readMore">
+						<a className="card-link">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
-					{/* <Link href="https://hackday-recipes-app.herokuapp.com/">
-						<a target="_blank">
-							<BiWorld /> Visit the web page
-						</a>
-					</Link> */}
 
 					<Link href="https://github.com/FabrizioOnorio/recipesApp">
-						<a target="_blank">
-							<BsGithub /> GitHub
+						<a target="_blank" className="card-link">
+							GitHub <BsGithub />
 						</a>
 					</Link>
 				</section>

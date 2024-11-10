@@ -7,11 +7,11 @@ import { Row, Spacer } from "@nextui-org/react";
 
 export const Contacts: React.FC = () => {
 	return (
-		<section className="contacts-section" id={"contacts"}>
+		<section className="contacts-section" id="contacts">
 			<section className="contacts-section--text">
 				<Spacer />
 				<Row justify="center" align="center">
-					<h2 className="text-xl font-semibold">Get In Touch</h2>
+					<h2 className="text-3xl font-semibold">Get In Touch</h2>
 				</Row>
 				<Spacer y={2} />
 				<Row justify="center" align="center">

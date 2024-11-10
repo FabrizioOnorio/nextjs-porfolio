@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { Background } from "../components/Particles";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "../components/Footer";
@@ -8,7 +7,6 @@ import { Nav } from "../components/Nav";
 const TravelPlannerPage: NextPage = () => {
 	return (
 		<>
-			<Background />
 			<section className="project-page-section">
       <Nav />
 				<h1>Travel Planner</h1>
@@ -31,10 +29,6 @@ const TravelPlannerPage: NextPage = () => {
 							.
 						</p>
 						<section className="projects-page-links">
-							{/* <Link href="http://www.traveld.eu/">
-								<a target="_blank">Visit traveld.eu</a>
-							</Link> */}
-
 							<Link href="https://github.com/FabrizioOnorio/travel_planner2">
 								<a target="_blank">Code on GitHub</a>
 							</Link>

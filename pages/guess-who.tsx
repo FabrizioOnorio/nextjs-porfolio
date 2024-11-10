@@ -1,14 +1,12 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Background } from "../components/Particles";
 import { Footer } from "../components/Footer";
 import { Nav } from "../components/Nav";
 
 const GuessWhoPage: NextPage = () => {
 	return (
 		<>
-			<Background />
 			<section className="project-page-section">
       <Nav />
 				<h1>Guess Who Game</h1>
@@ -32,9 +30,6 @@ const GuessWhoPage: NextPage = () => {
 							with a socket.io.
 						</p>
 						<section className="projects-page-links">
-							{/* <Link href="https://guess-who-salt-game.herokuapp.com/">
-								<a target="_blank">Visit the heroku page</a>
-							</Link> */}
 							<Link href="https://github.com/FabrizioOnorio/guess-who">
 								<a target="_blank">Code on GitHub for the main app</a>
 							</Link>

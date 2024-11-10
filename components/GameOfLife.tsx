@@ -10,7 +10,7 @@ export const GameOfLife: React.FC = () => {
 			<Image
 				objectFit="cover"
 				width={200}
-				height={200}
+				height={140}
 				src={"/game-of-life-picture.png"}
 				alt={"prototype screenshots of the game of life project"}
 				className="project-card-img"
@@ -19,19 +19,19 @@ export const GameOfLife: React.FC = () => {
 				<h3>Game of Life</h3>
 				<section className="project-card--links">
 					<Link href="/game-of-life">
-						<a className="readMore">
+						<a className="card-link">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
 					<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
-						<a target="_blank">
-							<BiWorld /> Visit the web page
+						<a target="_blank" className="card-link">
+							Visit the page <BiWorld /> 
 						</a>
 					</Link>
 
 					<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
-						<a target="_blank">
-							<BsGithub /> GitHub
+						<a target="_blank" className="card-link">
+							GitHub <BsGithub />
 						</a>
 					</Link>
 				</section>

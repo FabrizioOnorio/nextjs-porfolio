@@ -10,7 +10,7 @@ export const TravelPlanner: React.FC = () => {
 			<Image
 				objectFit="cover"
 				width={200}
-				height={200}
+				height={140}
 				src={"/travel_planner.jpeg"}
 				alt={"prototype screenshots of the travel planner project"}
 				className="project-card-img"
@@ -19,14 +19,14 @@ export const TravelPlanner: React.FC = () => {
 				<h3>Travel Planner</h3>
 				<section className="project-card--links">
 					<Link href="/travel-planner">
-						<a className="readMore">
+						<a className="card-link">
 							Read more <BsFillArrowRightCircleFill />
 						</a>
 					</Link>
 
 					<Link href="https://github.com/FabrizioOnorio/travel_planner2">
-						<a target="_blank">
-							<BsGithub /> GitHub
+						<a target="_blank" className="card-link">
+							GitHub <BsGithub />
 						</a>
 					</Link>
 				</section>
