@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { BiWorld } from "react-icons/bi";
-import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 export const GameOfLife: React.FC = () => {
@@ -24,13 +24,19 @@ export const GameOfLife: React.FC = () => {
 					</p>
 					<section className="projects-page-links">
 						<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
-							<a target="_blank">Visit the Vercel page for the React App</a>
+							<a target="_blank" className="card-link"> 
+								<BiWorld /> Visit the Vercel page for the React App
+							</a>
 						</Link>
 						<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">
-							<a target="_blank">Code on GitHub (React App)</a>
+							<a target="_blank" className="card-link">
+								<BsGithub /> Code on GitHub (React App)
+	 						</a>
 						</Link>
 						<Link href="https://github.com/FabrizioOnorio/game-of-life">
-							<a target="_blank">Code on GitHub (Rails App)</a>
+							<a target="_blank" className="card-link">
+								<BsGithub /> Code on GitHub (Rails App)
+	 						</a>
 						</Link>
 					</section>
 				</section>

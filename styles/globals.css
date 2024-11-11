@@ -287,6 +287,10 @@ a:hover {
 		padding: 1rem;
     }
 
+	.projects-section--projects {
+		padding: 2rem;
+	}
+
     .project-page-img {
         width: 100%;
     }

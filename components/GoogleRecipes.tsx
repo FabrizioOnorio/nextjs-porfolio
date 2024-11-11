@@ -24,7 +24,9 @@ export const GoogleRecipes: React.FC = () => {
 				</p>
 				<section className="projects-page-links">
 					<Link href="https://github.com/FabrizioOnorio/recipesApp">
-						<a target="_blank">Code on GitHub</a>
+						<a target="_blank" className="card-link">
+							<BsGithub /> Code on GitHub 
+						</a>
 					</Link>
 				</section>
 			</section>
