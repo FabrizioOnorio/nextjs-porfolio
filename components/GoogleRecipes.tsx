@@ -6,7 +6,7 @@ import Image from "next/image";
 export const GoogleRecipes: React.FC = () => {
 	return (
 		<section className="project-page-card">
-		<h1>Google Recipes</h1>
+		<h4>Google Recipes</h4>
 		<section className="project-page-description">
 			<Image
 				objectFit="cover"

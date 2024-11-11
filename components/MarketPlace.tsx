@@ -6,7 +6,7 @@ import Image from "next/image";
 export const MarketPlace: React.FC = () => {
 	return (
 		<section className="project-page-card">
-			<h1>Market Place for Fabrics</h1>
+			<h4>Market Place for Fabrics</h4>
 			<section className="project-page-description">
 				<Image
 					objectFit="cover"

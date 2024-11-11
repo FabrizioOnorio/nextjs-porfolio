@@ -7,7 +7,7 @@ import Image from "next/image";
 export const GameOfLife: React.FC = () => {
 	return (
 		<section className="project-page-card">
-			<h1>Conway&apos;s Game of Life</h1>
+			<h4>Conway&apos;s Game of Life</h4>
 			<section className="project-page-description">
 				<Image
 					objectFit="cover"

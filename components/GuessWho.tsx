@@ -6,7 +6,7 @@ import Image from "next/image";
 export const GuessWho: React.FC = () => {
 	return (
 		<section className="project-page-card">	
-				<h1>Guess Who Game</h1>
+				<h4>Guess Who Game</h4>
 				<section className="project-page-description">
 					<Image
 						objectFit="cover"

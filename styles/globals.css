@@ -218,19 +218,20 @@ a:hover {
 	background-color: #003436;
 	box-shadow: 4px 4px 60px 0px #000;
 	border-radius: 0.4rem;
+	padding: 2rem;
+}
+
+.project-page-card h4 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .project-page-description {
 	display: flex;
 	justify-content: space-between;
-	padding: 4rem;;
 	width: 90%;
 	gap: 2rem;
 	max-width: 90rem;
-}
-
-.project-page-description h1 {
-	font-size: 1.3rem;
 }
 
 .project-page-img {
@@ -282,9 +283,12 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+	.project-page-card {
+		padding: 1rem;
+	}
+
     .project-page-description {
         flex-direction: column;
-		padding: 1rem;
     }
 
 	.projects-section--projects {

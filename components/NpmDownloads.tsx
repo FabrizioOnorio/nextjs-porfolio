@@ -7,7 +7,7 @@ import { FiExternalLink } from "react-icons/fi";
 export const NpmDownloads: React.FC = () => {
 	return (
 		<section className="project-page-card">	
-		<h1>Npm Downloads</h1>
+		<h4>Npm Downloads</h4>
 			<div className="project-page-description">
 				<Image
 					objectFit="cover"

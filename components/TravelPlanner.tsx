@@ -6,7 +6,7 @@ import Image from "next/image";
 export const TravelPlanner: React.FC = () => {
 	return (
 		<section className="project-page-card">
-		<h1>Travel Planner</h1>
+		<h4>Travel Planner</h4>
 			<section className="project-page-description">
 				<Image
 					objectFit="cover"
