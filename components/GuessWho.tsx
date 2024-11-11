@@ -1,43 +1,45 @@
 import React from "react";
 import Link from "next/link";
-import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 export const GuessWho: React.FC = () => {
 	return (
-		<article className="project-card">
-			<Image
-				objectFit="cover"
-				width={200}
-				height={140}
-				src={"/guess-who.png"}
-				alt={"prototype screenshots of the recipes project"}
-				className="project-card-img"
-			/>
-			<div className="project-card-text">
-				<h3>Guess Who</h3>
-				<section className="project-card--links">
-					<Link href="/guess-who">
-						<a className="card-link">
-							Read more <BsFillArrowRightCircleFill />
-						</a>
-					</Link>
-
-					<Link href="https://github.com/FabrizioOnorio/guess-who" passHref>
-						<a target="_blank" className="card-link">
-							GitHub project <BsGithub />
-						</a>
-					</Link>
-					<Link
-						href="https://github.com/FabrizioOnorio/guess-who-socket"
-						passHref
-					>
-						<a target="_blank" className="card-link">
-							Socket.io Server <BsGithub />
-						</a>
-					</Link>
+		<section className="project-page-card">	
+				<h1>Guess Who Game</h1>
+				<section className="project-page-description">
+					<Image
+						objectFit="cover"
+						width={350}
+						height={350}
+						src={"/guess-who.png"}
+						alt={"prototype screenshots of the recipes project"}
+						className="project-page-img"
+					/>
+					<section className="project-page-text">
+						<p>
+							This application is the implementation of the famous{" "}
+							<Link href="https://en.wikipedia.org/wiki/Guess_Who%3F">
+								<a target="_blank">Guess Who</a>
+							</Link>{" "}
+							game.<br></br> The app was made using React with Typescript and
+							Redux for the front-end, for the back-end we used Express together
+							with a socket.io.
+						</p>
+						<section className="projects-page-links">
+							<Link href="https://github.com/FabrizioOnorio/guess-who">
+								<a target="_blank" className="card-link">
+									<BsGithub /> GitHub project 
+								</a>
+							</Link>
+							<Link href="https://github.com/FabrizioOnorio/guess-who-socket">
+								<a target="_blank" className="card-link">
+									<BsGithub /> Socket.io Server 
+								</a>
+							</Link>
+						</section>
+					</section>
 				</section>
-			</div>
-		</article>
+			</section>
 	);
 };

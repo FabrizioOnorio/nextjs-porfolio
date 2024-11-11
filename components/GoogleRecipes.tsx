@@ -1,35 +1,34 @@
 import React from "react";
 import Link from "next/link";
-import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 export const GoogleRecipes: React.FC = () => {
 	return (
-		<article className="project-card">
+		<section className="project-page-card">
+		<h1>Google Recipes</h1>
+		<section className="project-page-description">
 			<Image
 				objectFit="cover"
-				width={200}
-				height={140}
+				width={350}
+				height={350}
 				src={"/recipes-project.png"}
 				alt={"prototype screenshots of the recipes project"}
-				className="project-card-img"
+				className="project-page-img"
 			/>
-			<div className="project-card-text">
-				<h3>Google Recipes</h3>
-				<section className="project-card--links">
-					<Link href="/google-recipes">
-						<a className="card-link">
-							Read more <BsFillArrowRightCircleFill />
-						</a>
-					</Link>
-
+			<section className="project-page-text">
+				<p>
+					I made this application using React with Typescript for the
+					front-end, for the back-end I used Express.<br></br> This project was made
+					for Hackday in Salt.
+				</p>
+				<section className="projects-page-links">
 					<Link href="https://github.com/FabrizioOnorio/recipesApp">
-						<a target="_blank" className="card-link">
-							GitHub <BsGithub />
-						</a>
+						<a target="_blank">Code on GitHub</a>
 					</Link>
 				</section>
-			</div>
-		</article>
+			</section>
+		</section>
+	</section>
 	);
 };
