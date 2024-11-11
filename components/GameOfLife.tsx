@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BiWorld } from "react-icons/bi";
+import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
@@ -25,7 +25,7 @@ export const GameOfLife: React.FC = () => {
 					<section className="projects-page-links">
 						<Link href="https://game-of-life-on-react-fabrizioonorio.vercel.app/">
 							<a target="_blank" className="card-link"> 
-								<BiWorld /> Visit the Vercel page for the React App
+								<FiExternalLink /> Visit the Vercel page for the React App
 							</a>
 						</Link>
 						<Link href="https://github.com/FabrizioOnorio/game_of_life_on_react">

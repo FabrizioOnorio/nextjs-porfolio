@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { BiWorld } from "react-icons/bi";
-import { BsFillArrowRightCircleFill, BsGithub } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
 
 export const TravelPlanner: React.FC = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import { BiWorld } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
+import { FiExternalLink } from "react-icons/fi";
 
 export const NpmDownloads: React.FC = () => {
 	return (
@@ -26,7 +26,7 @@ export const NpmDownloads: React.FC = () => {
 					<section className="projects-page-links">
 						<Link href="https://npm-download-count.vercel.app/">
 						<a target="_blank" className="card-link">
-		 					<BiWorld /> Visit the page 
+		 					<FiExternalLink /> Visit the page 
 	 					</a>
 						</Link>
 
