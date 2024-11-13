@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { Presentation } from "../components/Presentation";
-import { TeckStack } from "../components/TeckStack";
+import { TechStack } from "../components/TechStack";
 import { Projects } from "../components/Projects";
 import { Contacts } from "../components/Contacts";
 import { Nav } from "../components/Nav";
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 			<Header />
 			<Nav />
 			<Presentation />
-			<TeckStack />
+			<TechStack />
 			<Projects />
 			<Contacts />
 			<Footer />

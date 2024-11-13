@@ -14,9 +14,9 @@ import { IoLogoCss3 } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 import { Row, Spacer, Tooltip } from "@nextui-org/react";
 
-export const TeckStack: React.FC = () => {
+export const TechStack: React.FC = () => {
 	return (
-		<section className="teck-stack-section" id="teck-stack">
+		<section className="teck-stack-section" id="tech-stack">
 			<section className="teck-stack-section--text">
 				<Row justify="center" align="center">
 					<h2 className="text-3xl font-semibold">Tech Stack</h2>

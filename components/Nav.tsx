@@ -8,11 +8,11 @@ export const Nav: React.FC = () => {
 			<Row justify="center" align="center">
 				<Link href={"/#home"}>Home</Link>
 				<Spacer y={2} />
-				<Link href={"/#teck-stack"}>Teck Stack</Link>
+				<Link href={"/#tech-stack"}>Tech Stack</Link>
 				<Spacer y={2} />
 				<Link href={"/#projects"}>Projects</Link>
 				<Spacer y={2} />
-				<Link href={"/#contacts"}>Contacts</Link>
+				<Link href={"/#contact"}>Contact</Link>
 			</Row>
 		</nav>
 	);
