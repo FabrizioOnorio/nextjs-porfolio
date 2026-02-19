@@ -6,9 +6,10 @@ import {
 	SiPostgresql,
 	SiMongodb,
 	SiExpress,
-	SiRedux,
 	SiNextdotjs,
-	SiSvelte
+	SiSvelte,
+	SiVuedotjs,
+	SiGitlab
 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
@@ -26,6 +27,9 @@ export const TechStack: React.FC = () => {
 				<section className="teck-stack">
 					<Tooltip content={"React"}>
 						<FaReact className="teck-stack--element" />
+					</Tooltip>
+					<Tooltip content={"Vue.js"}>
+						<SiVuedotjs className="teck-stack--element" />
 					</Tooltip>
 					<Tooltip content={"TypeScript"}>
 						<SiTypescript className="teck-stack--element" />
@@ -45,6 +49,9 @@ export const TechStack: React.FC = () => {
 					<Tooltip content={"GitHub"}>
 						<BsGithub className="teck-stack--element" />
 					</Tooltip>
+					<Tooltip content={"GitLab"}>
+						<SiGitlab className="teck-stack--element" />
+					</Tooltip>
 					<Tooltip content={"Git"}>
 						<FaGitSquare className="teck-stack--element" />
 					</Tooltip>
@@ -56,9 +63,6 @@ export const TechStack: React.FC = () => {
 					</Tooltip>
 					<Tooltip content={"Express"}>
 						<SiExpress className="teck-stack--element" />
-					</Tooltip>
-					<Tooltip content={"Redux"}>
-						<SiRedux className="teck-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Next.js"}>
 						<SiNextdotjs className="teck-stack--element" />
