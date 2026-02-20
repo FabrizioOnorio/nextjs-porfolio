@@ -126,7 +126,7 @@ export const CV: React.FC = () => {
 
 						<div className="cv-skill-category">
 							<h4>General</h4>
-							<p>JavaScript, TypeScript, Agile development / TDD, Vitest</p>
+							<p>JavaScript, TypeScript, Agile development, Vitest</p>
 						</div>
 
 						<div className="cv-skill-category">
