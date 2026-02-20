@@ -8,7 +8,7 @@ export const Nav: React.FC = () => {
 			<Row justify="center" align="center">
 				<Link href={"/#home"}>Home</Link>
 				<Spacer y={2} />
-				<Link href={"/#tech-stack"}>Tech Stack</Link>
+				<Link href={"/#cv"}>Experience</Link>
 				<Spacer y={2} />
 				<Link href={"/#projects"}>Projects</Link>
 				<Spacer y={2} />

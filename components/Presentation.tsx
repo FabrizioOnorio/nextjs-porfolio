@@ -12,7 +12,7 @@ export const Presentation: React.FC = () => {
 					src={"/avatar-profile.png"}
 					alt={"avatar photo of Fabrizio"}
 				/>
-					<h1 className="text-3xl mt-10">Hello! I&apos;m Fabrizio,</h1>
+					<h1 className="text-3xl mt-8">Hello! I&apos;m Fabrizio,</h1>
 					<h3>a Full Stack developer</h3>
 				</div>
 		</section>
