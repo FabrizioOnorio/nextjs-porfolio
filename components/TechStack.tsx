@@ -17,55 +17,55 @@ import { Row, Spacer, Tooltip } from "@nextui-org/react";
 
 export const TechStack: React.FC = () => {
 	return (
-		<section className="teck-stack-section" id="tech-stack">
-			<section className="teck-stack-section--text">
+		<section className="tech-stack-section" id="tech-stack">
+			<section className="tech-stack-section--text">
 				<Row justify="center" align="center">
 					<h2 className="text-3xl font-semibold">Tech Stack</h2>
 				</Row>
 				<Spacer y={2} />
 
-				<section className="teck-stack">
+				<section className="tech-stack">
 					<Tooltip content={"React"}>
-						<FaReact className="teck-stack--element" />
+						<FaReact className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Vue.js"}>
-						<SiVuedotjs className="teck-stack--element" />
+						<SiVuedotjs className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"TypeScript"}>
-						<SiTypescript className="teck-stack--element" />
+						<SiTypescript className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"JavaScript"}>
-						<SiJavascript className="teck-stack--element" />
+						<SiJavascript className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"CSS"}>
-						<IoLogoCss3 className="teck-stack--element" />
+						<IoLogoCss3 className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"HTML5"}>
-						<FaHtml5 className="teck-stack--element" />
+						<FaHtml5 className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"SvelteKit"}>
-						<SiSvelte className="teck-stack--element" />
+						<SiSvelte className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"GitHub"}>
-						<BsGithub className="teck-stack--element" />
+						<BsGithub className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"GitLab"}>
-						<SiGitlab className="teck-stack--element" />
+						<SiGitlab className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Git"}>
-						<FaGitSquare className="teck-stack--element" />
+						<FaGitSquare className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Postgresql"}>
-						<SiPostgresql className="teck-stack--element" />
+						<SiPostgresql className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"MongoDB"}>
-						<SiMongodb className="teck-stack--element" />
+						<SiMongodb className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Express"}>
-						<SiExpress className="teck-stack--element" />
+						<SiExpress className="tech-stack--element" />
 					</Tooltip>
 					<Tooltip content={"Next.js"}>
-						<SiNextdotjs className="teck-stack--element" />
+						<SiNextdotjs className="tech-stack--element" />
 					</Tooltip>
 				</section>
 			</section>

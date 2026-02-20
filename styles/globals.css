@@ -93,7 +93,7 @@ html {
 	color: #ffffff;
 }
 
-.teck-stack {
+.tech-stack {
 	font-size: 3em;
 	display: flex;
 	flex-wrap: wrap;
@@ -101,7 +101,7 @@ html {
 	gap: 2rem;
 }
 
-.teck-stack-section {
+.tech-stack-section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -109,7 +109,7 @@ html {
 	height: 100vh;
 }
 
-.teck-stack-section--text {
+.tech-stack-section--text {
 	padding: 2rem;
 	border-radius: 3rem;
 }
@@ -175,7 +175,7 @@ html {
 }
 
 @media (max-width: 768px) {
-	.teck-stack {
+	.tech-stack {
 		padding: 0rem 0.5rem;
 		font-size: 2.2em;
 	}
@@ -233,7 +233,7 @@ html {
 	flex-direction: column;
 }
 
-.teck-stack--element:hover {
+.tech-stack--element:hover {
 	color: #66b4b7;
 }
 
