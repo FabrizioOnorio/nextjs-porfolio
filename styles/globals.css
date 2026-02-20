@@ -224,7 +224,7 @@ html {
 }
 
 .projects-section--projects {
-	padding: 0rem 3rem;
+	padding: 0rem 2rem;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto 0 auto;
@@ -465,9 +465,9 @@ html {
         flex-direction: column;
     }
 
-	/* .projects-section--projects {
-		padding: 2rem;
-	} */
+	.projects-section--projects {
+		padding: 0rem 1rem;
+	}
 
     .project-page-img {
         width: 100%;
